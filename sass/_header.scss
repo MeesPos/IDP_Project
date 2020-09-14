@@ -1,0 +1,40 @@
+header{
+    background-color: $purpleHeader;
+    height: 60vh;
+    width: 100vw;
+    margin-top: 15vh;
+    & > .row{
+        align-items: center;
+    }
+}
+
+.headerContent > h1{
+    font-size: 65px;
+    color: $darkPurple;
+    font-weight: 600;
+}
+
+.headerContent > p{
+    font-size: 17px;
+    color: $darkPurple;
+    max-width: 33vw;
+}
+
+.fa-play-circle{
+    font-size: 60px;
+}
+
+.bedrijfsVideo{
+    display: table;
+    color: $darkPurple;
+    font-weight: bold;
+    &:hover{
+        color: $darkPurple;
+        text-decoration: none;
+    }
+    & > p{
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 10px;
+    }
+}

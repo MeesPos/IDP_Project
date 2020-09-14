@@ -1,44 +1,62 @@
-#section1{
-    background-color:#0FF; 
-    }
-    .section-content{
-    /*border:1px solid #F00;*/
-      width:80%;
-      margin:0 auto;
-      text-align:center;
-    }
-    h1{
-      margin:0;
-      color:#333;
-    }
-    h1 i.fa{
-    font-size:3em;
-    color:#FFF;
-    transition:all 0.3s ease-in-out;
-    }
-    i.fa:hover{
-    color:#f00;
-    cursor:pointer;
-    transform:scale(1.2) rotate(10deg);
-    }  
-    #section2{
-    background-color:#0F0; 
-    }
-    #section3{
-    background-color:#0ff; 
-    }
-    .slide{
-    background-size:cover;
-      background-position:center;
-    }  
-    
-    #section4{
-    background-color:#999; 
-    }
-    #fp-nav ul li a span {
-      background-color: #f00;
-    }
-    
-    .fp-slidesNav ul li a span {
-      background-color: #fff;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fp-tableCell {
+  display: block !important;
+}
+
+.page-template-default {
+  margin-top: 30px !important;
+}
+
+@media (max-width: 800px) {
+  .page-template-default {
+    margin-top: 46px !important;
+  }
+}
+header {
+  background-color: rgba(108, 99, 255, 0.1);
+  height: 60vh;
+  width: 100vw;
+  margin-top: 15vh;
+}
+header > .row {
+  align-items: center;
+}
+
+.headerContent > h1 {
+  font-size: 65px;
+  color: #4842AB;
+  font-weight: 600;
+}
+
+.headerContent > p {
+  font-size: 17px;
+  color: #4842AB;
+  max-width: 33vw;
+}
+
+.fa-play-circle {
+  font-size: 60px;
+}
+
+.bedrijfsVideo {
+  display: table;
+  color: #4842AB;
+  font-weight: bold;
+}
+.bedrijfsVideo:hover {
+  color: #4842AB;
+  text-decoration: none;
+}
+.bedrijfsVideo > p {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+/*# sourceMappingURL=themeStyle.css.map */

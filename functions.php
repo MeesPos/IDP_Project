@@ -17,6 +17,8 @@ function loadStyleScript()
     wp_enqueue_style('FullPageSliderCSS', 'https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css');
     wp_enqueue_script('fullPageSlider', 'https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js', array('jquery'), 2.7, true);
     
+    wp_enqueue_script('fontAwesome', 'https://kit.fontawesome.com/a82e000026.js', array('jquery'), 1.1, true);
+
     wp_enqueue_script('script', get_template_directory_uri() . '/script.js', array('jquery'), 1.1, true);
 }
 
