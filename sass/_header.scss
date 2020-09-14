@@ -3,21 +3,21 @@ header{
     height: 60vh;
     width: 100vw;
     margin-top: 15vh;
-    & > .row{
-        align-items: center;
+}
+
+.headerContent{
+    display: table-cell!important;
+    vertical-align: middle;
+    margin-left: 4vw;
+    & > h1{
+        font-size: 65px;
+        color: $darkPurple;
+        font-weight: 600;
+    } & > p{
+        font-size: 17px;
+        color: $darkPurple;
+        max-width: 33vw;
     }
-}
-
-.headerContent > h1{
-    font-size: 65px;
-    color: $darkPurple;
-    font-weight: 600;
-}
-
-.headerContent > p{
-    font-size: 17px;
-    color: $darkPurple;
-    max-width: 33vw;
 }
 
 .fa-play-circle{
@@ -31,10 +31,29 @@ header{
     &:hover{
         color: $darkPurple;
         text-decoration: none;
-    }
-    & > p{
+    } & > p{
         display: table-cell;
         vertical-align: middle;
         padding-left: 10px;
     }
+}
+
+.headerIllu{
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.headerIllu > img{
+    height: auto!important;
+    width: 78vh;
+}
+
+.headerGrid{
+    display: table;
+}
+
+.verticale{
+    display: grid!important;
+    grid-template-columns: 50vw 50vw;
 }
