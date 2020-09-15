@@ -57,6 +57,11 @@
         margin-left: 0;
         margin-top: 2vh;
         text-align: center;
+        & > p{
+            margin: 0 auto;
+            max-width: 100vw;
+            width: 80vw;
+        }
     }
 
     .bedrijfsVideo{
@@ -67,11 +72,5 @@
     .headerIllu{
         margin-left: 0;
         margin-top: 0;
-    }
-
-    .headerContent > p{
-        margin: 0 auto;
-        max-width: 100vw;
-        width: 80vw;
     }
 }
