@@ -126,4 +126,76 @@ input[type=text]::placeholder, input[type=email]::placeholder {
   font-size: 20px;
 }
 
+.team-section-container {
+  margin: 0 auto;
+}
+
+.team-section-container > h2 {
+  color: #6C63FF;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+
+.team-section-container > p {
+  text-align: center;
+  width: 45%;
+  font-size: 22px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-weight: 600;
+  color: #7D7D82;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 85%;
+  margin: 0 auto;
+}
+
+.team-kaartje {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.team-kaartje > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.team-kaartje > h3 {
+  margin-top: 10px;
+  color: #4842AB;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: -5px;
+}
+
+.team-kaartje > p {
+  color: #6C63FF;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.team-portfolio-link-arrow-div > p {
+  display: table-cell;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #4842AB;
+}
+
+.team-portfolio-link-arrow-div {
+  display: table;
+}
+
+.team-portfolio-link-arrow-div > img {
+  width: 40px;
+  height: auto;
+  display: block;
+  margin: 9px 0 0 15px;
+}
+
 /*# sourceMappingURL=themeStyle.css.map */
