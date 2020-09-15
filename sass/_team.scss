@@ -26,6 +26,7 @@
 .team-kaartje {
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 .team-kaartje > img {
     width: 100%;
@@ -43,19 +44,25 @@
     font-weight: 600;
     font-size: 18px;
 }
-.team-portfolio-link-arrow-div > p {
-    display: table-cell;
-    margin-top: 5px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #4842AB;
-}
-.team-portfolio-link-arrow-div {
+.team-link {
     display: table;
-}
-.team-portfolio-link-arrow-div > img {
-    width: 40px;
-    height: auto;
-    display: block;
-    margin: 9px 0 0 15px;
+    & p {
+        display: table-cell;
+        vertical-align: middle;
+        margin-top: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #4842AB;
+        padding-left: 7.5px;
+        &:hover{
+            color: #6C63FF;
+            transition: .5s;
+        }
+    } & > img {
+        width: 40px;
+        height: auto;
+        display: block;
+    } &:hover{
+        text-decoration: none;
+    }
 }

@@ -16,7 +16,7 @@
         Zij staan iedere werkdag voor u klaar, of u nu al klant bent of
         graag meer wilt weten over wat wij doen!
       </p>
-      
+
       <div class="team-container">
         <div class="team-grid-item">
           <div class="team-kaartje">
@@ -24,10 +24,10 @@
             <h3 class="team-naam">Cornell van der Straaten</h3>
             <p class="team-functie">Developer</p>
             <a href="#" class="team-link">
-              <div class="team-portfolio-link-arrow-div">
+              
                 <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
                 <p>Naar Portfolio</p>
-              </div>
+              
             </a>
           </div>
         </div>
@@ -38,10 +38,10 @@
             <h3 class="team-naam">Mees Postma</h3>
             <p class="team-functie">Developer</p>
             <a href="#" class="team-link">
-              <div class="team-portfolio-link-arrow-div">
+              
                 <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
                 <p>Naar Portfolio</p>
-              </div>
+              
             </a>
           </div>
         </div>
@@ -52,10 +52,10 @@
             <h3 class="team-naam">Larissa van Rijn</h3>
             <p class="team-functie">Graphic Designer</p>
             <a href="#" class="team-link">
-              <div class="team-portfolio-link-arrow-div">
+              
                 <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
                 <p>Naar Portfolio</p>
-              </div>
+              
             </a>
           </div>
         </div>
@@ -66,10 +66,10 @@
             <h3 class="team-naam">Mitchel Westerwaal</h3>
             <p class="team-functie">Graphic Designer</p>
             <a href="#" class="team-link">
-              <div class="team-portfolio-link-arrow-div">
+              
                 <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
                 <p>Naar Portfolio</p>
-              </div>
+              
             </a>
           </div>
         </div>
@@ -98,6 +98,10 @@
       </div>
       <div></div>
     </div>
+  </div>
+
+  <div class="section fp-auto-height footer-section">
+    YO EXTRA RUIMTE AUB
   </div>
 
 </div>

@@ -158,6 +158,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
 .team-kaartje {
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .team-kaartje > img {
@@ -179,23 +180,29 @@ input[type=text]::placeholder, input[type=email]::placeholder {
   font-size: 18px;
 }
 
-.team-portfolio-link-arrow-div > p {
+.team-link {
+  display: table;
+}
+.team-link p {
   display: table-cell;
+  vertical-align: middle;
   margin-top: 5px;
   font-size: 20px;
   font-weight: 600;
   color: #4842AB;
+  padding-left: 7.5px;
 }
-
-.team-portfolio-link-arrow-div {
-  display: table;
+.team-link p:hover {
+  color: #6C63FF;
+  transition: 0.5s;
 }
-
-.team-portfolio-link-arrow-div > img {
+.team-link > img {
   width: 40px;
   height: auto;
   display: block;
-  margin: 9px 0 0 15px;
+}
+.team-link:hover {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=themeStyle.css.map */
