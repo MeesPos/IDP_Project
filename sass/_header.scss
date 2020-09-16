@@ -1,0 +1,84 @@
+#homeHeader{
+    background-color: $purpleHeader;
+    height: 60vh;
+    width: 100vw;
+}
+
+.headerContent{
+    margin-top: 15vh;
+    margin-left: 5vw;
+    & > h1{
+        font-size: 65px;
+        color: $darkPurple;
+        font-weight: 600;
+    } & > p{
+        font-size: 17px;
+        color: $darkPurple;
+        max-width: 33vw;
+    }
+}
+
+.fa-play-circle{
+    font-size: 60px;
+}
+
+.bedrijfsVideo{
+    display: table;
+    color: $darkPurple;
+    font-weight: bold;
+    &:hover{
+        color: $darkPurple;
+        text-decoration: none;
+    } & > p{
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 10px;
+    }
+}
+
+.headerIllu{
+    margin-left: -5vw;
+    margin-top: -4.3vh;
+}
+
+.headerIllu > img{
+    width: 78vh;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background: $darkPurple!important;
+}
+
+#fp-nav ul li .fp-tooltip{
+    color: $darkPurple!important;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1199px) {
+    #homeHeader{
+        height: 100vh;
+        margin-top: 0;
+        padding-top: -76px;
+    }
+
+    .headerContent{
+        margin-left: 0;
+        margin-top: 2vh;
+        text-align: center;
+        & > p{
+            margin: 0 auto;
+            max-width: 100vw;
+            width: 80vw;
+        }
+    }
+
+    .bedrijfsVideo{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .headerIllu{
+        margin-left: 0;
+        margin-top: 0;
+    }
+}

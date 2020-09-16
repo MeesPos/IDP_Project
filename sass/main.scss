@@ -1,4 +1,6 @@
+// Montserrat font
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -6,5 +8,16 @@ html, body {
     font-weight: 400;
 }
 
+
+
+
+.fp-tableCell{
+    display: block!important;
+}
+
+@import 'vars';
+
+@import 'nav';
+@import 'header';
 @import 'contact';
 @import 'team';
