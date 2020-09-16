@@ -236,4 +236,205 @@ input[type=text]::placeholder, input[type=email]::placeholder {
   font-size: 20px;
 }
 
+@media screen and (max-width: 1300px) {
+  .contact-logo > img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .contact-section > div {
+    display: grid !important;
+    grid-template-columns: 0% 100%;
+  }
+
+  .contact-page-right-container > h2 {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contact-page-right-container > h2 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .contact-page-right-container > h2 {
+    font-size: 40px;
+  }
+
+  #wpforms-8-field_5_1 + label {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #wpforms-submit-8 {
+    width: 65%;
+  }
+}
+@media screen and (max-height: 700px) {
+  .contact-page-right-container > h2 {
+    margin-bottom: 10px;
+  }
+
+  #wpforms-8-field_5-container {
+    margin-bottom: 10px !important;
+  }
+}
+@media screen and (max-width: 325px) {
+  .contact-page-right-container > h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-height: 700px) {
+  .contact-page-right-container > h2 {
+    margin-bottom: 10px;
+  }
+
+  .wpforms-field-container > div {
+    margin-bottom: 10px !important;
+  }
+}
+.team-section-container {
+  margin: 0 auto;
+}
+
+.team-section-container > h2 {
+  color: #6C63FF;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+
+.team-section-container > p {
+  text-align: center;
+  width: 45%;
+  font-size: 22px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-weight: 600;
+  color: #7D7D82;
+}
+
+.team-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.team-kaartje {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.team-kaartje > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.team-kaartje > h3 {
+  margin-top: 10px;
+  color: #4842AB;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: -5px;
+}
+
+.team-kaartje > p {
+  color: #6C63FF;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.team-link {
+  display: table;
+}
+.team-link p {
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #4842AB;
+  padding-left: 7.5px;
+}
+.team-link p:hover {
+  color: #6C63FF;
+  transition: 0.5s;
+}
+.team-link > img {
+  width: 40px;
+  height: auto;
+  display: block;
+}
+.team-link:hover {
+  text-decoration: none;
+}
+
+.team-container > .owl-carousel > .owl-nav [class*=owl-] {
+  padding: 8px 14px;
+  font-size: 18px;
+  background: #6C63FF;
+}
+
+.team-container > .owl-carousel > .owl-dots > .owl-dot > span {
+  width: 15px;
+  height: 15px;
+}
+
+.team-container > .owl-theme > .owl-dots > .owl-dot.active > span {
+  background-color: #4842AB;
+}
+
+.team-container > .owl-theme > .owl-dots > .owl-dot:hover > span {
+  background-color: #b1adff;
+}
+
+@media screen and (max-width: 1400px) {
+  .team-section-container > p {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .team-section-container > h2 {
+    font-size: 50px;
+  }
+  .team-section-container > p {
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .team-section-container > h2 {
+    font-size: 40px;
+  }
+  .team-section-container > p {
+    width: 75%;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .owl-nav {
+    display: none;
+  }
+
+  .owl-dots {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .team-section-container > h2 {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .team-section-container > p {
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+}
+
 /*# sourceMappingURL=themeStyle.css.map */
