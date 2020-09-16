@@ -44,8 +44,6 @@
   </div>
   <div class="section" id="section2">section2</div>
 
-  <div class="section" id="section3">section4</div>
-
   <div class="section team-section" id="section3">
     <div class="team-section-container">
       <h2>Maak kennis met ons team</h2>
@@ -55,64 +53,64 @@
       </p>
 
       <div class="team-container">
-      <div class="owl-carousel owl-theme">
-        <div class="team-grid-item">
-          <div class="team-kaartje">
-            <img src="<?php  echo get_template_directory_uri() . '/img/cornell.jpg' ?>" alt="Een foto van designer Larissa van Rijn.">
-            <h3 class="team-naam">Cornell van der Straaten</h3>
-            <p class="team-functie">Developer</p>
-            <a href="#" class="team-link">
-              
-                <img src="<?php  echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
-                <p>Naar Portfolio</p>
-              
-            </a>
-          </div>
-        </div>
+        <div class="owl-carousel owl-theme">
+          <div class="team-grid-item">
+            <div class="team-kaartje">
+              <img src="<?php echo get_template_directory_uri() . '/img/cornell.jpg' ?>" alt="Een foto van designer Larissa van Rijn.">
+              <h3 class="team-naam">Cornell van der Straaten</h3>
+              <p class="team-functie">Developer</p>
+              <a href="#" class="team-link">
 
-        <div class="team-grid-item">
-          <div class="team-kaartje">
-            <img src="<?php  echo get_template_directory_uri() . '/img/mees.jpg' ?>" alt="Een foto van designer Larissa van Rijn.">
-            <h3 class="team-naam">Mees Postma</h3>
-            <p class="team-functie">Developer</p>
-            <a href="#" class="team-link">
-              
-                <img src="<?php  echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
+                <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
                 <p>Naar Portfolio</p>
-              
-            </a>
-          </div>
-        </div>
 
-        <div class="team-grid-item">
-          <div class="team-kaartje">
-            <img src="<?php  echo get_template_directory_uri() . '/img/larissa.jpeg' ?>" alt="Een foto van designer Larissa van Rijn.">
-            <h3 class="team-naam">Larissa van Rijn</h3>
-            <p class="team-functie">Graphic Designer</p>
-            <a href="#" class="team-link">
-              
-                <img src="<?php  echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="team-grid-item">
+            <div class="team-kaartje">
+              <img src="<?php echo get_template_directory_uri() . '/img/mees.jpg' ?>" alt="Een foto van designer Larissa van Rijn.">
+              <h3 class="team-naam">Mees Postma</h3>
+              <p class="team-functie">Developer</p>
+              <a href="#" class="team-link">
+
+                <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
                 <p>Naar Portfolio</p>
-              
-            </a>
-          </div>
-        </div>
 
-        <div class="team-grid-item">
-          <div class="team-kaartje">
-            <img src="<?php  echo get_template_directory_uri() . '/img/larissa.jpeg' ?>" alt="Een foto van designer Larissa van Rijn.">
-            <h3 class="team-naam">Mitchel Westerwaal</h3>
-            <p class="team-functie">Graphic Designer</p>
-            <a href="#" class="team-link">
-              
-                <img src="<?php  echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="team-grid-item">
+            <div class="team-kaartje">
+              <img src="<?php echo get_template_directory_uri() . '/img/larissa.jpeg' ?>" alt="Een foto van designer Larissa van Rijn.">
+              <h3 class="team-naam">Larissa van Rijn</h3>
+              <p class="team-functie">Graphic Designer</p>
+              <a href="#" class="team-link">
+
+                <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
                 <p>Naar Portfolio</p>
-              
-            </a>
-          </div>
-        </div>
 
-</div>
+              </a>
+            </div>
+          </div>
+
+          <div class="team-grid-item">
+            <div class="team-kaartje">
+              <img src="<?php echo get_template_directory_uri() . '/img/larissa.jpeg' ?>" alt="Een foto van designer Larissa van Rijn.">
+              <h3 class="team-naam">Mitchel Westerwaal</h3>
+              <p class="team-functie">Graphic Designer</p>
+              <a href="#" class="team-link">
+
+                <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
+                <p>Naar Portfolio</p>
+
+              </a>
+            </div>
+          </div>
+
+        </div>
 
       </div>
     </div>
@@ -143,6 +141,6 @@
   </div>
 
 
-</div>
 
-<?php get_footer() ?>
+
+  <?php get_footer() ?>

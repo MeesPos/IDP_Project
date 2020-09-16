@@ -12,9 +12,11 @@ html, body {
 
 
 .fp-tableCell{
-    display: block!important;
+//    display: block!important;
 }
-
+#section1 > .fp-tableCell{
+    display: block !important;
+}
 @import 'vars';
 
 @import 'nav';
