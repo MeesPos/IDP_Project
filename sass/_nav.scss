@@ -1,0 +1,20 @@
+.navbar{
+    min-height: 15vh;
+    background-color: white!important;
+}
+
+.custom-logo-link > img{
+    width: 85%;
+    height: auto;
+    padding-left: 3.2vw;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2.5rem!important;
+        padding-left: 2.5rem!important;
+        color: $darkPurple!important;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
