@@ -149,8 +149,6 @@ input[type=text]::placeholder, input[type=email]::placeholder {
 }
 
 .team-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 85%;
   margin: 0 auto;
 }
