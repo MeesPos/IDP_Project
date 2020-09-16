@@ -1,0 +1,125 @@
+.contact-section > div{
+    display: grid !important;
+    grid-template-columns: 45% 55%;
+}
+.contact-page-left {
+    display: grid;
+    grid-template-rows: 1fr auto auto 1fr;
+}
+.contact-logo {
+    margin: 0 auto;
+}
+.contact-page-right {
+    background-color: #6C63FF;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+}
+.contact-page-right-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.contact-page-right-container > h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.wpforms-field-container > div {
+    margin-bottom: 30px !important;
+}
+.wpforms-field-container > div > label, #wpforms-form-8 > .wpforms-field-container > div > label > .wpforms-required-label  {
+    color: white ;
+}
+.wpforms-field-container > div > label {
+    margin-bottom: 10px;
+}
+#wpforms-form-8 > div > div > input[type=text] {
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 0;
+}
+#wpforms-form-8 > div > div > input[type=email] {
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 0;
+}
+input[type=text]::placeholder, input[type=email]::placeholder {
+    color: rgb(201, 201, 201);
+    margin-left: -10px !important;
+}
+#wpforms-8-field_5-container {
+    color: white;
+}
+
+#wpforms-8-field_5_1 {
+    position: absolute; // take it out of document flow
+    opacity: 0; // hide it
+  
+    & + label {
+      position: relative;
+      cursor: pointer;
+      padding: 0;
+    }
+  
+    // Box.
+    & + label:before {
+      content: '';
+      margin-right: 10px;
+      display: inline-block;
+      vertical-align: text-top;
+      width: 20px;
+      height: 20px;
+      background: #6C63FF;
+      border: 3.5px solid white;
+    }
+  
+    // Box hover
+    &:hover + label:before {
+      background: white;
+    }
+    
+    // Box focus
+    &:focus + label:before {
+      box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.171);
+    }
+  
+    // Box checked
+    &:checked + label:before {
+      background: white;
+    }
+
+    // Checkmark. Could be replaced with an image
+    &:checked + label:after {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 9px;
+      background: black+;
+      width: 2px;
+      height: 2px;
+      box-shadow: 
+        2px 0 0 black,
+        4px 0 0 black,
+        4px -2px 0 black,
+        4px -4px 0 black,
+        4px -6px 0 black,
+        4px -8px 0 black;
+      transform: rotate(45deg);
+    }
+  }
+  #wpforms-submit-8 {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      border-radius: 50px;
+      color: #6C63FF;
+      font-weight: 600;
+      font-size: 20px;
+  }
+  
+
