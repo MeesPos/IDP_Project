@@ -1,4 +1,14 @@
 <?php
+function theme_prefix_setup() {
+	
+	add_theme_support( 'custom-logo', array(
+		'height'      => 75,
+		'width'       => 300,
+		'flex-width' => true,
+	) );
+
+}
+add_action( 'after_setup_theme', 'theme_prefix_setup' );
 
 /**
  * Load Stylesheets and Scripts in
@@ -24,3 +34,20 @@ function loadStyleScript()
 
 add_action('init', 'loadStyleScript');
 
+/**
+ * Register Navbar
+ */
+function register_menus() {
+    register_nav_menus(
+        array(
+            'main-menu' => __( 'Main menu' )
+        )
+    );
+} add_action( 'init', 'register_menus' );
+
+/**
+ * Register Custom Navigation Walker
+ */
+function register_navwalker(){
+	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+} add_action( 'init', 'register_navwalker' );

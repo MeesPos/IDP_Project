@@ -9,20 +9,30 @@
   display: block !important;
 }
 
-.page-template-default {
-  margin-top: 30px !important;
+.navbar {
+  min-height: 15vh;
+  background-color: white !important;
 }
 
-@media (max-width: 800px) {
-  .page-template-default {
-    margin-top: 46px !important;
+.custom-logo-link > img {
+  width: 85%;
+  height: auto;
+  padding-left: 3.2vw;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem !important;
+    padding-left: 2.5rem !important;
+    color: #4842AB !important;
+    font-weight: bold;
+    text-transform: uppercase;
   }
 }
 #homeHeader {
   background-color: rgba(108, 99, 255, 0.1);
   height: 60vh;
   width: 100vw;
-  margin-top: 15vh;
 }
 
 .headerContent {
@@ -61,11 +71,20 @@
 
 .headerIllu {
   margin-left: -5vw;
-  margin-top: -5vh;
+  margin-top: -4.3vh;
 }
 
 .headerIllu > img {
-  width: 75vh;
+  width: 78vh;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: #4842AB !important;
+}
+
+#fp-nav ul li .fp-tooltip {
+  color: #4842AB !important;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1199px) {
@@ -80,6 +99,11 @@
     margin-top: 2vh;
     text-align: center;
   }
+  .headerContent > p {
+    margin: 0 auto;
+    max-width: 100vw;
+    width: 80vw;
+  }
 
   .bedrijfsVideo {
     margin: 0 auto;
@@ -89,12 +113,6 @@
   .headerIllu {
     margin-left: 0;
     margin-top: 0;
-  }
-
-  .headerContent > p {
-    margin: 0 auto;
-    max-width: 100vw;
-    width: 80vw;
   }
 }
 

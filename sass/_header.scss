@@ -2,7 +2,6 @@
     background-color: $purpleHeader;
     height: 60vh;
     width: 100vw;
-    margin-top: 15vh;
 }
 
 .headerContent{
@@ -39,11 +38,20 @@
 
 .headerIllu{
     margin-left: -5vw;
-    margin-top: -5vh;
+    margin-top: -4.3vh;
 }
 
 .headerIllu > img{
-    width: 75vh;
+    width: 78vh;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background: $darkPurple!important;
+}
+
+#fp-nav ul li .fp-tooltip{
+    color: $darkPurple!important;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 1199px) {
