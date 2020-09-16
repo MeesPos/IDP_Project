@@ -102,7 +102,7 @@
   </div>
 
   <div class="section fp-auto-height footer-section">
-    YO EXTRA RUIMTE AUB
+    FOOTER HIER
   </div>
 
 </div>

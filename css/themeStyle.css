@@ -126,6 +126,65 @@ input[type=text]::placeholder, input[type=email]::placeholder {
   font-size: 20px;
 }
 
+@media screen and (max-width: 1300px) {
+  .contact-logo > img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .contact-section > div {
+    display: grid !important;
+    grid-template-columns: 0% 100%;
+  }
+
+  .contact-page-right-container > h2 {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contact-page-right-container > h2 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .contact-page-right-container > h2 {
+    font-size: 40px;
+  }
+
+  #wpforms-8-field_5_1 + label {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #wpforms-submit-8 {
+    width: 65%;
+  }
+}
+@media screen and (max-height: 700px) {
+  .contact-page-right-container > h2 {
+    margin-bottom: 10px;
+  }
+
+  #wpforms-8-field_5-container {
+    margin-bottom: 10px !important;
+  }
+}
+@media screen and (max-width: 325px) {
+  .contact-page-right-container > h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-height: 700px) {
+  .contact-page-right-container > h2 {
+    margin-bottom: 10px;
+  }
+
+  .wpforms-field-container > div {
+    margin-bottom: 10px !important;
+  }
+}
 .team-section-container {
   margin: 0 auto;
 }
@@ -201,6 +260,71 @@ input[type=text]::placeholder, input[type=email]::placeholder {
 }
 .team-link:hover {
   text-decoration: none;
+}
+
+.team-container > .owl-carousel > .owl-nav [class*=owl-] {
+  padding: 8px 14px;
+  font-size: 18px;
+  background: #6C63FF;
+}
+
+.team-container > .owl-carousel > .owl-dots > .owl-dot > span {
+  width: 15px;
+  height: 15px;
+}
+
+.team-container > .owl-theme > .owl-dots > .owl-dot.active > span {
+  background-color: #4842AB;
+}
+
+.team-container > .owl-theme > .owl-dots > .owl-dot:hover > span {
+  background-color: #b1adff;
+}
+
+@media screen and (max-width: 1400px) {
+  .team-section-container > p {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .team-section-container > h2 {
+    font-size: 50px;
+  }
+  .team-section-container > p {
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .team-section-container > h2 {
+    font-size: 40px;
+  }
+  .team-section-container > p {
+    width: 75%;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .owl-nav {
+    display: none;
+  }
+
+  .owl-dots {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .team-section-container > h2 {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .team-section-container > p {
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=themeStyle.css.map */

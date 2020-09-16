@@ -121,5 +121,58 @@ input[type=text]::placeholder, input[type=email]::placeholder {
       font-weight: 600;
       font-size: 20px;
   }
-  
-
+  @media screen and (max-width: 1300px) {
+    .contact-logo > img {
+      width: 70%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width: 1170px) {
+    .contact-section > div{
+      display: grid !important;
+      grid-template-columns: 0% 100%;
+    }
+    .contact-page-right-container > h2 {
+      margin-bottom: 40px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .contact-page-right-container > h2 {
+      font-size: 50px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .contact-page-right-container > h2 {
+      font-size: 40px;
+    }
+    #wpforms-8-field_5_1 + label {
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    #wpforms-submit-8 {
+      width: 65%;
+    }
+  }
+  @media screen and (max-height: 700px) {
+    .contact-page-right-container > h2 {
+      margin-bottom: 10px;
+    }
+    #wpforms-8-field_5-container  {
+      margin-bottom: 10px !important;
+    }
+  }
+  @media screen and (max-width: 325px) {
+    .contact-page-right-container > h2 {
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-height: 700px) {
+    .contact-page-right-container > h2 {
+      margin-bottom: 10px;
+    } 
+    .wpforms-field-container > div {
+      margin-bottom: 10px !important;
+  }
+  }
