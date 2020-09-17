@@ -1,6 +1,16 @@
 // Montserrat font
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
+html {
+    margin-top: 0px!important;
+}
+
+@media screen and (max-width: 782px) {
+    html{
+        margin-top: 0px!important;
+    }
+}
+
 #fullpage {
     margin: 0;
     padding: 0;
