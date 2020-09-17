@@ -1,0 +1,12 @@
+.paketten{
+    &__title{
+    font-size: 64px!important;
+    font-weight: 600;
+    color: $purple;
+    } &__omschrijving{
+        width: 45vw;
+        margin: 0 auto;
+        color: $darkPurple;
+        font-weight: 600;
+    }
+}

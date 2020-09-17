@@ -42,7 +42,28 @@
       </div>
     </section>
   </div>
-  <div class="section" id="section2">section2</div>
+
+  <div class="section paketten" id="section2">
+    <h2 class="paketten__title text-center">Kijk wat wij te bieden hebben</h2>
+    <p class="paketten__omschrijving text-center">Het team van Power Marketing bestaat uit 4 enthusiaste medewerkers.
+      Zij staan iedere werkdag voor u klaar, of u nu al klant bent of
+      graag meer wilt weten over wat wij doen!</p>
+      <div class="owl-carousel owl-paketten owl-theme">
+          <div class="basic">
+            Hoi
+          </div>
+
+          <div class="standard">
+            Hoi
+          </div>
+
+          <div class="premium">
+            Hoi
+            <p>sjdsdjsjdsjdjdf</p>
+            rad2deg()
+          </div>
+      </div>
+  </div>
 
   <div class="section team-section" id="section3">
     <div class="team-section-container">
@@ -53,7 +74,7 @@
       </p>
 
       <div class="team-container">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-theme owl-team">
           <div class="team-grid-item">
             <div class="team-kaartje">
               <img src="<?php echo get_template_directory_uri() . '/img/cornell.jpg' ?>" alt="Een foto van designer Larissa van Rijn.">
