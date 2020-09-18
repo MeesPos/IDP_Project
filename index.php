@@ -150,52 +150,52 @@
 
               </a>
             </div>
-          </div>        </div>
-          <div class="team-grid-item">
-            <div class="team-kaartje">
-              <img src="<?php echo get_template_directory_uri() . '/img/mitchel.jpg' ?>" alt="Een foto van designer Larissa van Rijn.">
-              <h3 class="team-naam">Mitchel Westerwaal</h3>
-              <p class="team-functie">Graphic Designer</p>
-              <a href="#" class="team-link">
-
-                <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
-                <p>Naar Portfolio</p>
-            </a>
-              </a>
-            </div>
           </div>
+        <div class="team-grid-item">
+          <div class="team-kaartje">
+            <img src="<?php echo get_template_directory_uri() . '/img/mitchel.jpg' ?>" alt="Een foto van designer Larissa van Rijn.">
+            <h3 class="team-naam">Mitchel Westerwaal</h3>
+            <p class="team-functie">Graphic Designer</p>
+            <a href="#" class="team-link">
 
+              <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
+              <p>Naar Portfolio</p>
+            </a>
+            </a>
+          </div>
         </div>
 
       </div>
+
     </div>
   </div>
+</div>
 
-  <div class="section contact-section" id="section4">
-    <div class="contact-page-left">
-      <div></div>
+<div class="section contact-section" id="section4">
+  <div class="contact-page-left">
+    <div></div>
 
-      <div class="contact-logo">
-        <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" alt="Big purple letter P with a lightning bolt in it.">
-      </div>
-
-      <div></div>
+    <div class="contact-logo">
+      <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" alt="Big purple letter P with a lightning bolt in it.">
     </div>
-    <div class="contact-page-right">
-      <div></div>
-      <div class="contact-page-right-container">
-        <h2>NEEM CONTACT OP</h2>
-        <?php echo do_shortcode('[wpforms id="8" title="false" description="false"]') ?>
-      </div>
-      <div></div>
+
+    <div></div>
+  </div>
+  <div class="contact-page-right">
+    <div></div>
+    <div class="contact-page-right-container">
+      <h2>NEEM CONTACT OP</h2>
+      <?php echo do_shortcode('[wpforms id="8" title="false" description="false"]') ?>
     </div>
+    <div></div>
   </div>
+</div>
 
-  <div class="section fp-auto-height footer-section">
-    FOOTER HIER
-  </div>
+<div class="section fp-auto-height footer-section">
+  FOOTER HIER
+</div>
 
 
 
 
-  <?php get_footer() ?>
+<?php get_footer() ?>
