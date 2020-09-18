@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 });
 
-var owl = $('.owl-carousel');
+var owl = $('.owl-team');
 owl.owlCarousel({
   loop: true,
   nav: true,
@@ -38,3 +38,23 @@ owl.owlCarousel({
   }
 });
 
+var owlPak = $('.owl-paketten');
+owlPak.owlCarousel({
+  loop: true,
+  nav: true,
+  items: 3,
+  responsive: {
+    0: {
+      items: 1
+    },
+    500: {
+      items: 1
+    },
+    900: {
+      items: 2
+    },
+    1650: {
+      items: 3
+    }
+  }
+});
