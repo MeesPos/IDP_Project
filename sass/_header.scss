@@ -158,3 +158,9 @@
         top: 15px;
     }
 }
+
+@media screen and (max-width: 1199px) {
+    #homeHeader{
+        height: 85vh;
+    }
+}

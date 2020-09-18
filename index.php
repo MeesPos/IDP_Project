@@ -50,50 +50,52 @@
         Zij staan iedere werkdag voor u klaar, of u nu al klant bent of
         graag meer wilt weten over wat wij doen!</p>
     </div>
-    <div class="owl-carousel owl-paketten owl-theme">
-      <div class="basic">
-        <img class="basicIcon pakketIcon" src="<?php echo get_template_directory_uri() . '/img/basicIcon.png' ?>" alt="Basic plan - Power Marketing">
-        <h2>BASIC</h2>
-        <h3>€2.500</h3>
-        <div class="pakketItems">
-          <p>Logo Design</p>
-          <p>Website</p>
-          <p>SEO Ready</p>
-          <p>Enzovoorts</p>
+    <div class="pakettenCarousel">
+      <div class="owl-carousel owl-paketten owl-theme">
+        <div class="basic">
+          <img class="basicIcon pakketIcon" src="<?php echo get_template_directory_uri() . '/img/basicIcon.png' ?>" alt="Basic plan - Power Marketing">
+          <h2>BASIC</h2>
+          <h3>€2.500</h3>
+          <div class="pakketItems">
+            <p>Logo Design</p>
+            <p>Website</p>
+            <p>SEO Ready</p>
+            <p>Enzovoorts</p>
+          </div>
+          <a href="#">
+            <button>Meer Info</button>
+          </a>
         </div>
-        <a href="#">
-          <button>Meer Info</button>
-        </a>
-      </div>
 
-      <div class="standard">
-        <img class="pakketIcon standardIcon" src="<?php echo get_template_directory_uri() . '/img/standardIcon.png' ?>" alt="Standard plan - Power Marketing">
-        <h2>STANDARD</h2>
-        <h3>€5.000</h3>
-        <div class="pakketItems">
-          <p>Logo Design</p>
-          <p>Website</p>
-          <p>SEO Ready</p>
-          <p>Enzovoorts</p>
+        <div class="standard">
+          <img class="pakketIcon standardIcon" src="<?php echo get_template_directory_uri() . '/img/standardIcon.png' ?>" alt="Standard plan - Power Marketing">
+          <h2>STANDARD</h2>
+          <h3>€5.000</h3>
+          <div class="pakketItems">
+            <p>Logo Design</p>
+            <p>Website</p>
+            <p>SEO Ready</p>
+            <p>Enzovoorts</p>
+          </div>
+          <a href="#">
+            <button>Meer Info</button>
+          </a>
         </div>
-        <a href="#">
-          <button>Meer Info</button>
-        </a>
-      </div>
 
-      <div class="prenium">
-        <img class="pakketIcon preniumIcon" src="<?php echo get_template_directory_uri() . '/img/preniumIcon.png' ?>" alt="Prenium plan - Power Marketing">
-        <h2>PRENIUM</h2>
-        <h3>€10.000</h3>
-        <div class="pakketItems">
-          <p>Logo Design</p>
-          <p>Website</p>
-          <p>SEO Ready</p>
-          <p>Enzovoorts</p>
+        <div class="prenium">
+          <img class="pakketIcon preniumIcon" src="<?php echo get_template_directory_uri() . '/img/preniumIcon.png' ?>" alt="Prenium plan - Power Marketing">
+          <h2>PRENIUM</h2>
+          <h3>€10.000</h3>
+          <div class="pakketItems">
+            <p>Logo Design</p>
+            <p>Website</p>
+            <p>SEO Ready</p>
+            <p>Enzovoorts</p>
+          </div>
+          <a href="#">
+            <button>Meer Info</button>
+          </a>
         </div>
-        <a href="#">
-          <button>Meer Info</button>
-        </a>
       </div>
     </div>
   </div>
