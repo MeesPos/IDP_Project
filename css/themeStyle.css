@@ -203,12 +203,92 @@ html {
   font-size: 64px !important;
   font-weight: 600;
   color: #6C63FF;
+  margin-top: -40px;
 }
 .paketten__omschrijving {
   width: 45vw;
   margin: 0 auto;
   color: #4842AB;
   font-weight: 600;
+}
+
+.owl-paketten {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70vw !important;
+  margin: 0 auto;
+}
+
+.basic, .prenium, .standard {
+  width: 250px;
+  height: 450px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 50px #444444;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.standard {
+  background-color: #6C63FF;
+  transform: scale(1.1);
+  color: white;
+}
+.standard > h2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.standard > h3 {
+  font-weight: 600;
+  margin-top: -10px;
+}
+.standard > a > button {
+  background-color: white;
+  padding: 10px 30px;
+  border: none;
+  color: #4842AB;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.basic, .prenium {
+  color: #4842AB;
+}
+.basic > h2, .prenium > h2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.basic > h3, .prenium > h3 {
+  font-weight: 600;
+  margin-top: -10px;
+}
+.basic > a > button, .prenium > a > button {
+  background-color: #4842AB;
+  padding: 10px 30px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.basicIcon {
+  padding-top: 60px;
+}
+
+.preniumIcon {
+  padding-top: 40px;
+}
+
+.pakketIcon {
+  width: 60px !important;
+  margin: 0 auto;
+}
+
+.standardIcon {
+  padding-top: 45px;
 }
 
 .team-section-container {
