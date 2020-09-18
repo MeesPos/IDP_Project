@@ -150,18 +150,17 @@
 
               </a>
             </div>
-          </div>
-
+          </div>        </div>
           <div class="team-grid-item">
             <div class="team-kaartje">
-              <img src="<?php echo get_template_directory_uri() . '/img/larissa.jpeg' ?>" alt="Een foto van designer Larissa van Rijn.">
+              <img src="<?php echo get_template_directory_uri() . '/img/mitchel.jpg' ?>" alt="Een foto van designer Larissa van Rijn.">
               <h3 class="team-naam">Mitchel Westerwaal</h3>
               <p class="team-functie">Graphic Designer</p>
               <a href="#" class="team-link">
 
                 <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
                 <p>Naar Portfolio</p>
-
+            </a>
               </a>
             </div>
           </div>
