@@ -9,6 +9,11 @@
     padding-left: 3.2vw;
 }
 
+.navbar-light .navbar-toggler{
+    border: none!important;
+    color: $darkPurple!important;
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 2.5rem!important;

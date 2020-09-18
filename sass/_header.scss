@@ -50,8 +50,7 @@
 }
 
 #fp-nav ul li .fp-tooltip{
-    color: $darkPurple!important;
-    font-weight: bold;
+    display: none!important;
 }
 
 @media screen and (max-width: 1199px) {
@@ -79,6 +78,89 @@
 
     .headerIllu{
         margin-left: 0;
-        margin-top: 0;
+        margin-top: 2vh;
+        & > img{
+            width: 45vw;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .custom-logo-link > img{
+        padding-left: 0;
+        position: absolute;
+        left: 50px;
+        width: 60px;
+        height: 65px;
+        top: 30px;
+    }
+
+    #menu-powermarketing{
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .headerIllu {
+        display: none;
+    }
+
+    .headerContent {
+        margin-top: 7vh;
+        & > h1{
+            font-size: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .headerContent{
+        margin-top: 2vh;
+    }
+}
+
+@media screen and (width: 1024px){
+    .headerIllu > img{
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .headerIllu {
+        display: none;
+    }
+
+    .headerContent {
+        margin-top: 8vh;
+    }
+}
+
+@media screen and (width: 280px){
+    .fa-play-circle{
+        font-size: 45px;
+    }
+
+    .bedrijfsVideo > p{
+        font-size: 15px;
+    }
+
+    .headerContent > h1{
+        font-size: 35px;
+    }
+
+    .custom-logo-link > img{
+        top: 20px;
+    }
+}
+
+@media screen and (width: 360px){
+    .custom-logo-link > img {
+        top: 15px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #homeHeader{
+        height: 85vh;
     }
 }
