@@ -1,0 +1,40 @@
+.modal{
+    &-content{
+        border-radius: 25px!important;
+        text-align: center;
+        color: $darkPurple;
+        &-over{
+            font-weight: 600;
+        }
+    } &-title{
+        margin: 0 auto;
+        width: 100%;
+    } &-header{
+        background-color: $purple!important;
+        color: white!important;
+        border-radius: 25px 25px 0 0!important;
+    } &-project{
+        font-weight: bold;
+        &-container{
+            margin-top: 30px;
+        } &-image{
+            margin: 0 auto;
+            & > img{
+                width: 90%;
+                vertical-align: middle;
+            }
+        } &-info{
+
+        }
+    } &-portfolio-button{
+        background-color: $purple!important;
+        color: white!important;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+}
+
+.close{
+    color: white!important;
+    opacity: 1!important;
+}

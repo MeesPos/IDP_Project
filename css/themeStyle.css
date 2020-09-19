@@ -723,5 +723,46 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     margin-bottom: 10px !important;
   }
 }
+.modal-content {
+  border-radius: 25px !important;
+  text-align: center;
+  color: #4842AB;
+}
+.modal-content-over {
+  font-weight: 600;
+}
+.modal-title {
+  margin: 0 auto;
+  width: 100%;
+}
+.modal-header {
+  background-color: #6C63FF !important;
+  color: white !important;
+  border-radius: 25px 25px 0 0 !important;
+}
+.modal-project {
+  font-weight: bold;
+}
+.modal-project-container {
+  margin-top: 30px;
+}
+.modal-project-image {
+  margin: 0 auto;
+}
+.modal-project-image > img {
+  width: 90%;
+  vertical-align: middle;
+}
+.modal-portfolio-button {
+  background-color: #6C63FF !important;
+  color: white !important;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.close {
+  color: white !important;
+  opacity: 1 !important;
+}
 
 /*# sourceMappingURL=themeStyle.css.map */
