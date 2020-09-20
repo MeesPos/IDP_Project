@@ -115,11 +115,9 @@
               <img src="<?php echo get_template_directory_uri() . '/img/cornell.jpg' ?>" alt="Een foto van designer Larissa van Rijn.">
               <h3 class="team-naam">Cornell van der Straaten</h3>
               <p class="team-functie">Developer</p>
-              <a href="#" class="team-link">
-
+              <a href="#" class="team-link" data-toggle="modal" data-target="#cornellModal">
                 <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
                 <p>Naar Portfolio</p>
-
               </a>
             </div>
           </div>
@@ -129,11 +127,9 @@
               <img src="<?php echo get_template_directory_uri() . '/img/mees.jpg' ?>" alt="Een foto van designer Larissa van Rijn.">
               <h3 class="team-naam">Mees Postma</h3>
               <p class="team-functie">Developer</p>
-              <a href="#" class="team-link">
-
+              <a href="#" class="team-link" data-toggle="modal" data-target="#meesModal">
                 <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
                 <p>Naar Portfolio</p>
-
               </a>
             </div>
           </div>
@@ -143,11 +139,9 @@
               <img src="<?php echo get_template_directory_uri() . '/img/larissa.jpeg' ?>" alt="Een foto van designer Larissa van Rijn.">
               <h3 class="team-naam">Larissa van Rijn</h3>
               <p class="team-functie">Graphic Designer</p>
-              <a href="#" class="team-link">
-
+              <a href="#" class="team-link" data-toggle="modal" data-target="#larissaModal">
                 <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
                 <p>Naar Portfolio</p>
-
               </a>
             </div>
           </div>
@@ -209,12 +203,12 @@
 
         <h3 class="text-center modal-project">Bekijk hier een project van mij</h3>
         <div class="container-flex modal-project-container">
-          <div class="row modal-project-row">
-            <div class="col-md-6 modal-project-image">
+          <div class="row modal-project-row d-flex">
+            <div class="col-md-6 modal-project-image my-auto">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Cochem_and_Reichsburg.jpg/1200px-Cochem_and_Reichsburg.jpg" alt="">
             </div>
 
-            <div class="col-md-6 modal-project-info">
+            <div class="col-md-6 modal-project-info align-self-center">
               <h2 class="modal-project-title">Het mooie land van Cochem</h2>
               <p class="modal-project-omschrijving">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod sint enim odio eum culpa ab necessitatibus minima nobis dolore
@@ -230,11 +224,125 @@
     </div>
   </div>
 </div>
-</div>
-</div>
+
+<!-- Het modaal van Larissa -->
+<div class="modal fade" id="larissaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Hai, mijn naam is Larissa van Rijn!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-content-over">Hier komt dan wat tekst over jou,
+          moet hier nog komen want ik weet geen
+          tekst voor jou sorry :)
+        </p>
+
+        <h3 class="text-center modal-project">Bekijk hier een project van mij</h3>
+        <div class="container-flex modal-project-container">
+          <div class="row modal-project-row d-flex">
+            <div class="col-md-6 modal-project-image my-auto">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Cochem_and_Reichsburg.jpg/1200px-Cochem_and_Reichsburg.jpg" alt="">
+            </div>
+
+            <div class="col-md-6 modal-project-info align-self-center">
+              <h2 class="modal-project-title">Het mooie land van Cochem</h2>
+              <p class="modal-project-omschrijving">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod sint enim odio eum culpa ab necessitatibus minima nobis dolore
+                voluptatem iste ratione, laboriosam asperiores alias consectetur ipsum laudantium officia. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit</p>
+            </div>
+          </div>
+        </div>
+        <a href="">
+          <button class="btn modal-portfolio-button">Naar mijn Portfolio</button>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
 
+<!-- Modaal van Cornell -->
+<div class="modal fade" id="cornellModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Hai, mijn naam is Cornell van der Straaten!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-content-over">Hier komt dan wat tekst over jou,
+          moet hier nog komen want ik weet geen
+          tekst voor jou sorry :)
+        </p>
 
+        <h3 class="text-center modal-project">Bekijk hier een project van mij</h3>
+        <div class="container-flex modal-project-container">
+          <div class="row modal-project-row d-flex">
+            <div class="col-md-6 modal-project-image my-auto">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Cochem_and_Reichsburg.jpg/1200px-Cochem_and_Reichsburg.jpg" alt="">
+            </div>
 
+            <div class="col-md-6 modal-project-info align-self-center">
+              <h2 class="modal-project-title">Het mooie land van Cochem</h2>
+              <p class="modal-project-omschrijving">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod sint enim odio eum culpa ab necessitatibus minima nobis dolore
+                voluptatem iste ratione, laboriosam asperiores alias consectetur ipsum laudantium officia. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit</p>
+            </div>
+          </div>
+        </div>
+        <a href="">
+          <button class="btn modal-portfolio-button">Naar mijn Portfolio</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modaal van Mees -->
+<div class="modal fade" id="meesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Hai, mijn naam is Mees Postma!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-content-over">Hier komt dan wat tekst over jou,
+          moet hier nog komen want ik weet geen
+          tekst voor jou sorry :)
+        </p>
+
+        <h3 class="text-center modal-project">Bekijk hier een project van mij</h3>
+        <div class="container-flex modal-project-container">
+          <div class="row modal-project-row d-flex">
+            <div class="col-md-6 modal-project-image my-auto">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Cochem_and_Reichsburg.jpg/1200px-Cochem_and_Reichsburg.jpg" alt="">
+            </div>
+
+            <div class="col-md-6 modal-project-info align-self-center">
+              <h2 class="modal-project-title">Het mooie land van Cochem</h2>
+              <p class="modal-project-omschrijving">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod sint enim odio eum culpa ab necessitatibus minima nobis dolore
+                voluptatem iste ratione, laboriosam asperiores alias consectetur ipsum laudantium officia. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit</p>
+            </div>
+          </div>
+        </div>
+        <a href="">
+          <button class="btn modal-portfolio-button">Naar mijn Portfolio</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php get_footer() ?>

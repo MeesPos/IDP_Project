@@ -21,10 +21,7 @@
             margin: 0 auto;
             & > img{
                 width: 90%;
-                vertical-align: middle;
             }
-        } &-info{
-
         }
     } &-portfolio-button{
         background-color: $purple!important;
@@ -37,4 +34,30 @@
 .close{
     color: white!important;
     opacity: 1!important;
+}
+
+@media screen and (max-width: 767px){
+    .modal{
+        &-project{
+            font-size: 25px!important;
+            &-image{
+                width: 80%!important;
+            } &-info{
+                margin-top: 30px!important;
+                width: 80%!important;
+                margin: 0 auto;
+            } &-title{
+                font-size: 23px;
+                font-weight: bold;
+            }
+        } &-portfolio-button{
+            margin-top: 15px!important;
+            margin-bottom: 7.5px!important;
+        } &-content{
+            &-over{
+                width: 80%!important;
+                margin: 0 auto;
+            }
+        }
+    }
 }
