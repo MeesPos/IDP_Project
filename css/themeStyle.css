@@ -50,6 +50,10 @@ html {
   width: 100vw;
 }
 
+#section1 {
+  height: 100vh;
+}
+
 .headerContent {
   margin-top: 15vh;
   margin-left: 5vw;
@@ -721,6 +725,72 @@ input[type=text]::placeholder, input[type=email]::placeholder {
 
   .wpforms-field-container > div {
     margin-bottom: 10px !important;
+  }
+}
+.modal-content {
+  border-radius: 25px !important;
+  text-align: center;
+  color: #4842AB;
+}
+.modal-content-over {
+  font-weight: 600;
+}
+.modal-title {
+  margin: 0 auto;
+  width: 100%;
+}
+.modal-header {
+  background-color: #6C63FF !important;
+  color: white !important;
+  border-radius: 25px 25px 0 0 !important;
+}
+.modal-project {
+  font-weight: bold;
+}
+.modal-project-container {
+  margin-top: 30px;
+}
+.modal-project-image {
+  margin: 0 auto;
+}
+.modal-project-image > img {
+  width: 90%;
+}
+.modal-portfolio-button {
+  background-color: #6C63FF !important;
+  color: white !important;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.close {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .modal-project {
+    font-size: 25px !important;
+  }
+  .modal-project-image {
+    width: 80% !important;
+  }
+  .modal-project-info {
+    margin-top: 30px !important;
+    width: 80% !important;
+    margin: 0 auto;
+  }
+  .modal-project-title {
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .modal-portfolio-button {
+    margin-top: 15px !important;
+    margin-bottom: 7.5px !important;
+  }
+  .modal-content-over {
+    width: 80% !important;
+    margin: 0 auto;
   }
 }
 
