@@ -84,7 +84,7 @@
 
         <div class="prenium">
           <img class="pakketIcon preniumIcon" src="<?php echo get_template_directory_uri() . '/img/preniumIcon.png' ?>" alt="Prenium plan - Power Marketing">
-          <h2>PRENIUM</h2>
+          <h2>PREMIUM</h2>
           <h3>€10.000</h3>
           <div class="pakketItems">
             <p>Logo Design</p>
@@ -151,51 +151,80 @@
               </a>
             </div>
           </div>
-        <div class="team-grid-item">
-          <div class="team-kaartje">
-            <img src="<?php echo get_template_directory_uri() . '/img/mitchel.jpg' ?>" alt="Een foto van designer Larissa van Rijn.">
-            <h3 class="team-naam">Mitchel Westerwaal</h3>
-            <p class="team-functie">Graphic Designer</p>
-            <a href="#" class="team-link">
+          <div class="team-grid-item">
+            <div class="team-kaartje">
+              <img src="<?php echo get_template_directory_uri() . '/img/mitchel.jpg' ?>" alt="Een foto van designer Larissa van Rijn.">
+              <h3 class="team-naam">Mitchel Westerwaal</h3>
+              <p class="team-functie">Graphic Designer</p>
+              <a href="#" class="team-link">
 
-              <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
-              <p>Naar Portfolio</p>
-            </a>
-            </a>
+                <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
+                <p>Naar Portfolio</p>
+              </a>
+              </a>
+            </div>
           </div>
+
         </div>
 
+      </div>
+    </div>
+  </div>
+
+  <div class="section contact-section" id="section4">
+    <div class="contact-page-left">
+      <div></div>
+
+      <div class="contact-logo">
+        <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" alt="Big purple letter P with a lightning bolt in it.">
+      </div>
+
+      <div></div>
+    </div>
+    <div class="contact-page-right">
+      <div></div>
+      <div class="contact-page-right-container">
+        <h2>NEEM CONTACT OP</h2>
+        <?php echo do_shortcode('[wpforms id="8" title="false" description="false"]') ?>
+      </div>
+      <div></div>
+    </div>
+  </div>
+
+  <div class="section fp-auto-height footer-section">
+    <div class="footer-container container">
+      <div class="row">
+        <div class="footer-bedrijf-info col">
+          <img src="<?php echo get_template_directory_uri() . '/img/logoWhite.svg' ?>" alt="Power-Marketing Logo">
+          <h3>Power Marketing</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Cras maximus metus vel 
+congue viverra.</p>
+        </div>
+        <div class="footer-contact col "><?php dynamic_sidebar('footer-contact'); ?></div>
+        <div class="footer-verkennen col"><?php
+                                    wp_nav_menu(array(
+                                      'theme_location'    => 'footer-menu',
+                                      'depth'             => 2,
+                                      'container'         => 'div',
+                                      'container_class'   => 'collapse navbar-collapse',
+                                      'container_id'      => 'footerNav',
+                                      'menu_class'        => 'footer-nav',
+                                      'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                                      'walker'            => new WP_Bootstrap_Navwalker(),
+                                    ));
+                                    ?></div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="footer-copyright col">Copyright</div>
+        <div class="footer-socials col">Social Icons</div>
       </div>
 
     </div>
   </div>
-</div>
-
-<div class="section contact-section" id="section4">
-  <div class="contact-page-left">
-    <div></div>
-
-    <div class="contact-logo">
-      <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" alt="Big purple letter P with a lightning bolt in it.">
-    </div>
-
-    <div></div>
-  </div>
-  <div class="contact-page-right">
-    <div></div>
-    <div class="contact-page-right-container">
-      <h2>NEEM CONTACT OP</h2>
-      <?php echo do_shortcode('[wpforms id="8" title="false" description="false"]') ?>
-    </div>
-    <div></div>
-  </div>
-</div>
-
-<div class="section fp-auto-height footer-section">
-  FOOTER HIER
-</div>
 
 
 
 
-<?php get_footer() ?>
+  <?php get_footer() ?>

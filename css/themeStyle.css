@@ -581,7 +581,7 @@ html {
   margin-bottom: 30px !important;
 }
 
-.wpforms-field-container > div > label, #wpforms-form-8 > .wpforms-field-container > div > label > .wpforms-required-label {
+.wpforms-field-container > div > label, #wpforms-form-19 > .wpforms-field-container > div > label > .wpforms-required-label {
   color: white;
 }
 
@@ -589,7 +589,7 @@ html {
   margin-bottom: 10px;
 }
 
-#wpforms-form-8 > div > div > input[type=text] {
+#wpforms-form-19 > div > div > input[type=text] {
   background-color: #6C63FF;
   color: white;
   border: none;
@@ -597,7 +597,7 @@ html {
   padding: 0;
 }
 
-#wpforms-form-8 > div > div > input[type=email] {
+#wpforms-form-19 > div > div > input[type=email] {
   background-color: #6C63FF;
   color: white;
   border: none;
@@ -610,20 +610,20 @@ input[type=text]::placeholder, input[type=email]::placeholder {
   margin-left: -10px !important;
 }
 
-#wpforms-8-field_5-container {
+#wpforms-19-field_5-container {
   color: white;
 }
 
-#wpforms-8-field_5_1 {
+#wpforms-19-field_5_1 {
   position: absolute;
   opacity: 0;
 }
-#wpforms-8-field_5_1 + label {
+#wpforms-19-field_5_1 + label {
   position: relative;
   cursor: pointer;
   padding: 0;
 }
-#wpforms-8-field_5_1 + label:before {
+#wpforms-19-field_5_1 + label:before {
   content: "";
   margin-right: 10px;
   display: inline-block;
@@ -633,16 +633,16 @@ input[type=text]::placeholder, input[type=email]::placeholder {
   background: #6C63FF;
   border: 3.5px solid white;
 }
-#wpforms-8-field_5_1:hover + label:before {
+#wpforms-19-field_5_1:hover + label:before {
   background: white;
 }
-#wpforms-8-field_5_1:focus + label:before {
+#wpforms-19-field_5_1:focus + label:before {
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.171);
 }
-#wpforms-8-field_5_1:checked + label:before {
+#wpforms-19-field_5_1:checked + label:before {
   background: white;
 }
-#wpforms-8-field_5_1:checked + label:after {
+#wpforms-19-field_5_1:checked + label:after {
   content: "";
   position: absolute;
   left: 5px;
@@ -691,7 +691,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     font-size: 40px;
   }
 
-  #wpforms-8-field_5_1 + label {
+  #wpforms-19-field_5_1 + label {
     font-size: 15px;
   }
 }
@@ -705,7 +705,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     margin-bottom: 10px;
   }
 
-  #wpforms-8-field_5-container {
+  #wpforms-19-field_5-container {
     margin-bottom: 10px !important;
   }
 }
@@ -722,6 +722,19 @@ input[type=text]::placeholder, input[type=email]::placeholder {
   .wpforms-field-container > div {
     margin-bottom: 10px !important;
   }
+}
+.footer-section {
+  background-color: #4842AB;
+}
+
+.footer-container {
+  width: 80%;
+}
+
+.footer-bedrijf-info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
 }
 
 /*# sourceMappingURL=themeStyle.css.map */
