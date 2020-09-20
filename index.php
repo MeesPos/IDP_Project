@@ -236,28 +236,30 @@
         </button>
       </div>
       <div class="modal-body">
-        <p class="modal-content-over">Hier komt dan wat tekst over jou,
-          moet hier nog komen want ik weet geen
-          tekst voor jou sorry :)
+        <p class="modal-content-over">Mijn naam is Larissa van Rijn en ik studeer op het
+        Mediacollege in Amsterdam. Vormgeving heeft mij altijd wel bezig gehouden sinds ik
+        begonnen ben met de opleiding Mediavormgeving.
         </p>
 
         <h3 class="text-center modal-project">Bekijk hier een project van mij</h3>
         <div class="container-flex modal-project-container">
           <div class="row modal-project-row d-flex">
             <div class="col-md-6 modal-project-image my-auto">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Cochem_and_Reichsburg.jpg/1200px-Cochem_and_Reichsburg.jpg" alt="">
+              <img src="<?php echo get_template_directory_uri() . '/img/LarissaProject.png' ?>" alt="Table Card project - Larissa van Rhijn">
             </div>
 
             <div class="col-md-6 modal-project-info align-self-center">
-              <h2 class="modal-project-title">Het mooie land van Cochem</h2>
+              <h2 class="modal-project-title">Hotel Table card</h2>
               <p class="modal-project-omschrijving">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod sint enim odio eum culpa ab necessitatibus minima nobis dolore
-                voluptatem iste ratione, laboriosam asperiores alias consectetur ipsum laudantium officia. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit</p>
+              De table card wordt vaak gebruikt in hotels waar nuttige informatie opstaat voor de 
+              bezoeker. De elementen die ik toevoeg zijn de QR-code die leidt naar de webapp die 
+              GuestCompass ontworpen heeft, de informatie wat de klant erop wil hebben en het beeld. 
+              De kleuren pak ik meestal van het hotel haar websitestijl en zorg ervoor dat die een 
+              beetje op elkaar lijken.</p>
             </div>
           </div>
         </div>
-        <a href="">
+        <a href="https://larissavanrijn.wixsite.com/lvrdesign" target="_blank">
           <button class="btn modal-portfolio-button">Naar mijn Portfolio</button>
         </a>
       </div>
