@@ -28,20 +28,20 @@
 .wpforms-field-container > div {
     margin-bottom: 30px !important;
 }
-.wpforms-field-container > div > label, #wpforms-form-8 > .wpforms-field-container > div > label > .wpforms-required-label  {
+.wpforms-field-container > div > label, #wpforms-form-19 > .wpforms-field-container > div > label > .wpforms-required-label  {
     color: white ;
 }
 .wpforms-field-container > div > label {
     margin-bottom: 10px;
 }
-#wpforms-form-8 > div > div > input[type=text] {
+#wpforms-form-19 > div > div > input[type=text] {
     background-color: #6C63FF;
     color: white;
     border: none;
     border-bottom: 2px solid white;
     padding: 0;
 }
-#wpforms-form-8 > div > div > input[type=email] {
+#wpforms-form-19 > div > div > input[type=email] {
     background-color: #6C63FF;
     color: white;
     border: none;
@@ -52,11 +52,11 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     color: rgb(201, 201, 201);
     margin-left: -10px !important;
 }
-#wpforms-8-field_5-container {
+#wpforms-19-field_5-container {
     color: white;
 }
 
-#wpforms-8-field_5_1 {
+#wpforms-19-field_5_1 {
     position: absolute; // take it out of document flow
     opacity: 0; // hide it
   
@@ -146,7 +146,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     .contact-page-right-container > h2 {
       font-size: 40px;
     }
-    #wpforms-8-field_5_1 + label {
+    #wpforms-19-field_5_1 + label {
       font-size: 15px;
     }
   }
@@ -159,7 +159,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     .contact-page-right-container > h2 {
       margin-bottom: 10px;
     }
-    #wpforms-8-field_5-container  {
+    #wpforms-19-field_5-container  {
       margin-bottom: 10px !important;
     }
   }

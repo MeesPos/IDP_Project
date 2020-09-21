@@ -9,13 +9,23 @@ function theme_prefix_setup() {
 
 }
 add_action( 'after_setup_theme', 'theme_prefix_setup' );
+/**
+ * (Original function) Load Stylesheets and Scripts in
+ * Made WP itself very buggy, changed name to laadDingenIn to be able to
+ * load yourself where you want. It only uses the scripts on the page itself
+ * 
+ * @return string
+ */
+function loadStyleScript() {
+    # Sike
+}
 
 /**
  * Load Stylesheets and Scripts in
  *
  * @return string
  */
-function loadStyleScript()
+function laadDingenIn()
 {
     wp_enqueue_style('style', get_stylesheet_uri());
     wp_enqueue_style('themeStyle', get_template_directory_uri() . '/css/themeStyle.css');
@@ -46,8 +56,9 @@ add_action('init', 'loadStyleScript');
 function register_menus() {
     register_nav_menus(
         array(
-            'main-menu' => __( 'Main menu' )
-        )
+            'main-menu' => __( 'Main menu' ),
+            'footer-menu' => __( 'Footer menu' )
+        ),
     );
 } add_action( 'init', 'register_menus' );
 
@@ -57,3 +68,20 @@ function register_menus() {
 function register_navwalker(){
 	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 } add_action( 'init', 'register_navwalker' );
+
+// Widgets Registreren
+function register_widgets() {
+    register_sidebar(
+        array(
+            'id' => 'footer-contact',
+            'name' => __('Widget Footer Contact'),
+            'description' => __('Widget voor de Footers contact mogelijkheid'),
+            'before_widget' => '<div class="widget-footer">',
+            'after_widget' => '</div>',
+            'before_title' => '<h3 class="widget-footer-titel">',
+            'after_title' => '</h3>'
+        )
+    );
+  
+}
+add_action( 'init', 'register_widgets' );
