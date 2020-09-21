@@ -172,9 +172,7 @@
         <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" alt="Big purple letter P with a lightning bolt in it.">
       </div>
 
-
       <div></div>
-
     </div>
     <div class="contact-page-right">
       <div></div>
@@ -187,27 +185,43 @@
   </div>
 
   <div class="section fp-auto-height footer-section">
-    FOOTER HIER
-  </div>
-
-
-  <div class="section contact-section" id="section4">
-    <div class="contact-page-left">
-      <div></div>
-
-      <div class="contact-logo">
-        <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" alt="Big purple letter P with a lightning bolt in it.">
+    <div class="footer-container container">
+      <div class="row">
+        <div class="footer-bedrijf-info col-4">
+          <img src="<?php echo get_template_directory_uri() . '/img/logoWhite.svg' ?>" alt="Power-Marketing Logo">
+          <h3>Power Marketing</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Cras maximus metus vel
+            congue viverra.</p>
+        </div>
+        <div class="footer-contact "><?php dynamic_sidebar('footer-contact'); ?></div>
+        <div class="footer-verkennen ">
+          <h3>Verkennen</h3>
+          <?php
+          wp_nav_menu(array(
+            'theme_location'    => 'footer-menu',
+            'depth'             => 2,
+            'container'         => 'div',
+            'menu_class'        => 'footerMenu',
+          ));
+          ?>
+        </div>
+      </div>
+      <hr>
+      <div class="row footer-row">
+        <div class="footer-copyright col">2020 © by Power Marketing</div>
+        <div class="footer-socials col">
+          <p class="socialIcons float-right">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </p>
+        </div>
       </div>
 
-      <div></div>
     </div>
-    <div class="contact-page-right">
-      <div></div>
-      <div class="contact-page-right-container">
-        <h2>NEEM CONTACT OP</h2>
-        <?php echo do_shortcode('[wpforms id="8" title="false" description="false"]') ?>
-      </div>
-      <div></div>
+  </div>
+</div>
 
 <!-- Het modaal va Mitchel -->
 <div class="modal fade" id="mitchelModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -286,45 +300,6 @@
         <a href="https://larissavanrijn.wixsite.com/lvrdesign" target="_blank">
           <button class="btn modal-portfolio-button">Naar mijn Portfolio</button>
         </a>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="section fp-auto-height footer-section">
-    <div class="footer-container container">
-      <div class="row">
-        <div class="footer-bedrijf-info col-4">
-          <img src="<?php echo get_template_directory_uri() . '/img/logoWhite.svg' ?>" alt="Power-Marketing Logo">
-          <h3>Power Marketing</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Cras maximus metus vel
-            congue viverra.</p>
-        </div>
-        <div class="footer-contact "><?php dynamic_sidebar('footer-contact'); ?></div>
-        <div class="footer-verkennen ">
-          <h3>Verkennen</h3>
-          <?php
-          wp_nav_menu(array(
-            'theme_location'    => 'footer-menu',
-            'depth'             => 2,
-            'container'         => 'div',
-            'menu_class'        => 'footerMenu',
-          ));
-          ?>
-        </div>
-      </div>
-      <hr>
-      <div class="row footer-row">
-        <div class="footer-copyright col">2020 © by Power Marketing</div>
-        <div class="footer-socials col">
-          <p class="socialIcons float-right">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </p>
-        </div>
       </div>
 
     </div>
@@ -413,5 +388,9 @@
     </div>
   </div>
 </div>
+
+
+
+
 
   <?php get_footer() ?>
