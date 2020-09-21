@@ -249,11 +249,11 @@
             </div>
 
             <div class="col-md-6 modal-project-info align-self-center">
-              <h2 class="modal-project-title">Het mooie land van Cochem</h2>
+              <h2 class="modal-project-title">Hi Monday Aftermovie</h2>
               <p class="modal-project-omschrijving">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod sint enim odio eum culpa ab necessitatibus minima nobis dolore
-                voluptatem iste ratione, laboriosam asperiores alias consectetur ipsum laudantium officia. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit</p>
+              In opdracht van Hi Monday (evenementen bureau) die een dinnershow hadden georganiseerd, heb ik een aftermovie moeten 
+              maken. Dit feest die werd gehouden op de Supper Club Cruise in Rotterdam moest een gezellige en unieke sfeer uitstralen 
+              en dit moest ik op beeld overbrengen. Hieronder het eindresultaat.</p>
             </div>
           </div>
         </div>
