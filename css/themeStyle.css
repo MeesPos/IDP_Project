@@ -754,7 +754,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
 }
 
 .footer-contact {
-  margin: 0 100px;
+  margin: 0 15%;
 }
 .footer-contact > div {
   display: grid;
@@ -767,6 +767,104 @@ input[type=text]::placeholder, input[type=email]::placeholder {
 }
 .footer-contact > div > div > p {
   margin: 0;
+}
+.footer-contact > div > div > p > a {
+  color: white;
+  text-decoration-line: underline;
+}
+.footer-contact > div > div > p > a:hover {
+  cursor: pointer;
+}
+
+.footer-verkennen {
+  display: grid;
+  grid-template-rows: 70px auto;
+}
+.footer-verkennen > h3 {
+  color: white;
+  font-size: 24px;
+  margin: auto 0;
+  font-weight: 600;
+}
+.footer-verkennen > div > ul {
+  padding: 0;
+}
+.footer-verkennen > div > ul > li {
+  list-style: none;
+}
+.footer-verkennen > div > ul > li > a {
+  color: white;
+}
+.footer-verkennen > div > ul > li:hover {
+  cursor: pointer;
+}
+
+.footer-copyright {
+  margin-top: 5px;
+}
+
+.socialIcons {
+  text-align: center;
+  padding-right: 0;
+  font-size: 26px;
+}
+.socialIcons > a {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
+}
+.socialIcons > a:hover {
+  color: #9893f5;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-contact {
+    margin: 0 10%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .footer-contact {
+    margin: 0 2%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .footer-bedrijf-info {
+    display: grid;
+    grid-template-rows: 70px;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .footer-bedrijf-info > h3 {
+    margin: auto 0;
+    margin-left: 20px;
+    display: none;
+  }
+  .footer-bedrijf-info > p {
+    display: none;
+  }
+  .footer-bedrijf-info > img {
+    margin: 0 auto;
+  }
+
+  .footer-container {
+    text-align: center;
+  }
+  .footer-container > .row {
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+  }
+  .footer-container > .footer-row {
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  .footer-container > .footer-row > .footer-socials {
+    grid-row: 1/2;
+  }
+
+  .footer-socials > .float-right {
+    float: none !important;
+    font-size: 30px;
+  }
 }
 
 /*# sourceMappingURL=themeStyle.css.map */
