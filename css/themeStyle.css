@@ -727,7 +727,6 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     margin-bottom: 10px !important;
   }
 }
-
 .footer-section {
   background-color: #4842AB;
 }
@@ -870,7 +869,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     float: none !important;
     font-size: 30px;
   }
-
+}
 .modal-content {
   border-radius: 25px !important;
   text-align: center;
@@ -956,7 +955,6 @@ input[type=text]::placeholder, input[type=email]::placeholder {
   color: white;
   font-weight: bold;
   border-radius: 50px;
-
 }
 
 /*# sourceMappingURL=themeStyle.css.map */
