@@ -194,30 +194,26 @@
   <div class="section fp-auto-height footer-section">
     <div class="footer-container container">
       <div class="row">
-        <div class="footer-bedrijf-info col">
+        <div class="footer-bedrijf-info col-4">
           <img src="<?php echo get_template_directory_uri() . '/img/logoWhite.svg' ?>" alt="Power-Marketing Logo">
           <h3>Power Marketing</h3>
           <p>Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Cras maximus metus vel 
-congue viverra.</p>
+            adipiscing elit. Cras maximus metus vel
+            congue viverra.</p>
         </div>
-        <div class="footer-contact col "><?php dynamic_sidebar('footer-contact'); ?></div>
-        <div class="footer-verkennen col"><?php
-                                    wp_nav_menu(array(
-                                      'theme_location'    => 'footer-menu',
-                                      'depth'             => 2,
-                                      'container'         => 'div',
-                                      'container_class'   => 'collapse navbar-collapse',
-                                      'container_id'      => 'footerNav',
-                                      'menu_class'        => 'footer-nav',
-                                      'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-                                      'walker'            => new WP_Bootstrap_Navwalker(),
-                                    ));
-                                    ?></div>
+        <div class="footer-contact "><?php dynamic_sidebar('footer-contact'); ?></div>
+        <div class="footer-verkennen "><?php
+                                        wp_nav_menu(array(
+                                          'theme_location'    => 'footer-menu',
+                                          'depth'             => 2,
+                                          'container'         => 'div',
+                                          'menu_class'        => 'footerMenu',
+                                        ));
+                                        ?></div>
       </div>
       <hr>
       <div class="row">
-        <div class="footer-copyright col">Copyright</div>
+        <div class="footer-copyright col">2020 © by Power Marketing</div>
         <div class="footer-socials col">Social Icons</div>
       </div>
 
