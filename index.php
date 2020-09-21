@@ -301,10 +301,9 @@
           <button class="btn modal-portfolio-button">Naar mijn Portfolio</button>
         </a>
       </div>
-
     </div>
   </div>
-
+</div>
 <!-- Modaal van Cornell -->
 <div class="modal fade" id="cornellModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl">
