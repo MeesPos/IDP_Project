@@ -186,6 +186,7 @@
   </div>
 </div>
 
+<!-- Het modaal va Mitchel -->
 <div class="modal fade" id="mitchelModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content">
@@ -196,9 +197,9 @@
         </button>
       </div>
       <div class="modal-body">
-        <p class="modal-content-over">Hier komt dan wat tekst over jou,
-          moet hier nog komen want ik weet geen
-          tekst voor jou sorry :)
+        <p class="modal-content-over">Mijn naam is Mitchel Westerwaal, 19 jaar oud en werkzaam als video maker & grafisch 
+        vormgever bij Power Maketing. Hiernaast ben ik erg op de hoogte van de laatste ontwikkelingen op het 
+        gebied van Social Media en Online Marketing.
         </p>
 
         <h3 class="text-center modal-project">Bekijk hier een project van mij</h3>
@@ -278,28 +279,30 @@
         </button>
       </div>
       <div class="modal-body">
-        <p class="modal-content-over">Hier komt dan wat tekst over jou,
-          moet hier nog komen want ik weet geen
-          tekst voor jou sorry :)
+        <p class="modal-content-over">Ik ben Cornell, 17 jaar. Momenteel een student aan het Mediacollege Amsterdam waar ik 
+          MediaDevelopment doe. Ik zorg ervoor dat websites en applicaties er goed uit zien zowel als dat 
+          achter de schermen alles soepel verloopt en de gebruiker geen problemen krijgt.
         </p>
 
         <h3 class="text-center modal-project">Bekijk hier een project van mij</h3>
         <div class="container-flex modal-project-container">
           <div class="row modal-project-row d-flex">
             <div class="col-md-6 modal-project-image my-auto">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Cochem_and_Reichsburg.jpg/1200px-Cochem_and_Reichsburg.jpg" alt="">
+              <img src="<?php echo get_template_directory_uri() . '/img/hubsor.jpg' ?>" alt="Hubsor - Cornell van der Straaten">
             </div>
 
             <div class="col-md-6 modal-project-info align-self-center">
-              <h2 class="modal-project-title">Het mooie land van Cochem</h2>
+              <h2 class="modal-project-title">Mijn bedrijf Hubsor</h2>
               <p class="modal-project-omschrijving">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod sint enim odio eum culpa ab necessitatibus minima nobis dolore
-                voluptatem iste ratione, laboriosam asperiores alias consectetur ipsum laudantium officia. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit</p>
+               Samen met Mees Postma ben ik een bedrijf gestart, hubsor. Hier maken wij websites en verzorgen andere 
+               services zoals hosting installatie, plugin installatie en het verbeteren of verzorgen van SEO. Door onze 
+               goede samenwerking krijgen we ons werk goed voor elkaar. Ook hebben wij goed zicht op wat de uiteindelijke
+               klant nodig heeft en wilt. Zo kan de klant iets op een manier willen die niet optimaal is voor de klant, wij zijn 
+               er dan om ervoor te zorgen dat het verandert naar een manier die de klant helpt. </p>
             </div>
           </div>
         </div>
-        <a href="">
+        <a href="https://cornellvdstraaten.nl/" target="_blank">
           <button class="btn modal-portfolio-button">Naar mijn Portfolio</button>
         </a>
       </div>
@@ -318,28 +321,29 @@
         </button>
       </div>
       <div class="modal-body">
-        <p class="modal-content-over">Hier komt dan wat tekst over jou,
-          moet hier nog komen want ik weet geen
-          tekst voor jou sorry :)
+        <p class="modal-content-over">Hallo, mijn naam is Mees Postma, 17 jaar en ik studeer op het Mediacollege
+        Amsterdam waar ik Mediadevelopment doe. Hier leer ik websites maken, optimaliseren en onderhouden. Buiten school
+        ben ik met Cornell bezig met een eigen bedrijf waar wij websites en online diensten verkopen.
         </p>
 
         <h3 class="text-center modal-project">Bekijk hier een project van mij</h3>
         <div class="container-flex modal-project-container">
           <div class="row modal-project-row d-flex">
             <div class="col-md-6 modal-project-image my-auto">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Cochem_and_Reichsburg.jpg/1200px-Cochem_and_Reichsburg.jpg" alt="">
+              <img src="<?php echo get_template_directory_uri() . '/img/hubsor.jpg' ?>" alt="Hubsor - Mees Postma">
             </div>
 
             <div class="col-md-6 modal-project-info align-self-center">
-              <h2 class="modal-project-title">Het mooie land van Cochem</h2>
+              <h2 class="modal-project-title">Mijn bedrijf Hubsor</h2>
               <p class="modal-project-omschrijving">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod sint enim odio eum culpa ab necessitatibus minima nobis dolore
-                voluptatem iste ratione, laboriosam asperiores alias consectetur ipsum laudantium officia. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit</p>
+                Dit is Hubsor, een bedrijf die ik beheer samen met Cornell. Hier verkopen wij websites en online diensten
+                zoals SEO optimalisatie, Performance van websites verbeteren en nog veel meer. Wij kijken goed naar wat een klant
+                wilt. En proberen altijd zo goed mogelijk te maken naar de wensen van de klant. Voor meer informatie, kijk op
+              <a href="https://www.hubsor.nl" target="_blank">hubsor.nl</a>.</p>
             </div>
           </div>
         </div>
-        <a href="">
+        <a href="https://www.hubsor.nl" target="_blank">
           <button class="btn modal-portfolio-button">Naar mijn Portfolio</button>
         </a>
       </div>

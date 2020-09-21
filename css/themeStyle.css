@@ -793,5 +793,25 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     margin: 0 auto;
   }
 }
+#error {
+  text-align: center;
+  display: block;
+  margin: auto 0;
+}
+#error > h1 {
+  font-size: 250px;
+  font-weight: bold;
+  margin-bottom: -20px;
+}
+
+.homeButton {
+  text-transform: uppercase;
+  background-color: #4842AB;
+  padding: 15px 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+}
 
 /*# sourceMappingURL=themeStyle.css.map */
