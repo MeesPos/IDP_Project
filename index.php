@@ -63,7 +63,7 @@
             <p>Enzovoorts</p>
           </div>
           <a href="#">
-            <button>Meer Info</button>
+            <button>Aanvragen</button>
           </a>
         </div>
 
@@ -78,7 +78,7 @@
             <p>Enzovoorts</p>
           </div>
           <a href="#">
-            <button>Meer Info</button>
+            <button>Aanvragen</button>
           </a>
         </div>
 
@@ -93,7 +93,7 @@
             <p>Enzovoorts</p>
           </div>
           <a href="#">
-            <button>Meer Info</button>
+            <button>Aanvragen</button>
           </a>
         </div>
       </div>
@@ -158,7 +158,6 @@
 
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -388,8 +387,4 @@
   </div>
 </div>
 
-
-
-
-
-  <?php get_footer() ?>
+<?php get_footer() ?>
