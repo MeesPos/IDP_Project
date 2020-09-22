@@ -29,7 +29,7 @@
             <h1>Power Marketing.</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus
               metus vel congue viverra. Donec sit amet ante a dolor vestibulum luctus.</p>
-            <a href="#" class="bedrijfsVideo">
+            <a href="#" class="bedrijfsVideo" data-target="#bedrijfsModaal" data-toggle="modal">
               <i class="fas fa-play-circle"></i>
               <p>Bekijk onze bedrijfsvideo!</p>
             </a>
@@ -222,6 +222,18 @@
   </div>
 </div>
 
+<div class="modal fade" id="bedrijfsModaal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl backgroundBedrijf">
+    <div class="modal-content">
+      <div class="bedrijfsModal" style="padding:52.73% 0 0 0;position:relative;">
+        <iframe src="https://player.vimeo.com/video/460306959?color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+  </div>
+</div>
+
 <!-- Het modaal van Mitchel -->
 <div class="modal fade" id="mitchelModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -245,15 +257,14 @@
               <div style="padding:56.25% 0 0 0;position:relative;">
                 <iframe src="https://player.vimeo.com/video/460236342?color=c9ff23&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </div>
-              <script src="https://player.vimeo.com/api/player.js"></script>
             </div>
 
             <div class="col-md-6 modal-project-info align-self-center">
               <h2 class="modal-project-title">Hi Monday Aftermovie</h2>
               <p class="modal-project-omschrijving">
-              In opdracht van Hi Monday (evenementen bureau) die een dinnershow hadden georganiseerd, heb ik een aftermovie moeten 
-              maken. Dit feest die werd gehouden op de Supper Club Cruise in Rotterdam moest een gezellige en unieke sfeer uitstralen 
-              en dit moest ik op beeld overbrengen. Hieronder het eindresultaat.</p>
+                In opdracht van Hi Monday (evenementen bureau) die een dinnershow hadden georganiseerd, heb ik een aftermovie moeten
+                maken. Dit feest die werd gehouden op de Supper Club Cruise in Rotterdam moest een gezellige en unieke sfeer uitstralen
+                en dit moest ik op beeld overbrengen. Hieronder het eindresultaat.</p>
             </div>
           </div>
         </div>
