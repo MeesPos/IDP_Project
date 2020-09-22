@@ -407,6 +407,105 @@ html {
     display: none;
   }
 }
+.pakket-aanvragen-form > h2 {
+  font-size: 60px;
+  color: #6C63FF;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.pakket-aanvragen-page-wrapper {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 400;
+}
+.pakket-aanvragen-page-wrapper > .footer-section > .footer-container {
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+#wpforms-form-38 > .wpforms-field-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto auto;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.pakket-keuze {
+  grid-row: 2/3;
+  grid-column: 1/3;
+}
+.pakket-keuze > div {
+  display: block;
+  margin-bottom: 0 !important;
+  margin: 0 auto !important;
+}
+
+.aanvragen-bericht-input {
+  grid-row: 3/4;
+  grid-column: 1/3;
+}
+
+#wpforms-form-38 > .wpforms-field-container > div > label, #wpforms-form-38 > .wpforms-field-container > div > label > .wpforms-required-label {
+  color: #4842AB;
+  font-size: 20px;
+}
+
+#wpforms-form-38 > div > div > input[type=text] {
+  background-color: white;
+  color: white;
+  border: none;
+  border-bottom: 2px solid #6C63FF;
+  padding: 0;
+  max-width: 90%;
+}
+
+#wpforms-form-38 > div > div > input[type=email] {
+  background-color: white;
+  color: #6C63FF;
+  border: none;
+  border-bottom: 2px solid #6C63FF;
+  padding: 0;
+  max-width: 90%;
+}
+
+#wpforms-form-38 > .wpforms-field-container > div:nth-child(3) {
+  margin-bottom: 0 !important;
+}
+
+#wpforms-38-field_4 {
+  max-width: 95% !important;
+}
+
+#wpforms-submit-38 {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  border-radius: 50px;
+  color: white;
+  background-color: #6C63FF;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+.wpforms-field-container > .pakket-keuze > .wpforms-field-large {
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: 600;
+  color: #4842AB;
+  height: 60px;
+  width: 700px;
+  background-color: white;
+  border: none;
+  border-bottom: 2px solid #6C63FF;
+}
+.wpforms-field-container > .pakket-keuze > .wpforms-field-large:focus {
+  border: none;
+  border-bottom: 2px solid #6C63FF;
+}
+
 .team-section-container {
   margin: 0 auto;
 }

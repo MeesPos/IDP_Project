@@ -62,7 +62,7 @@
             <p>SEO Ready</p>
             <p>Enzovoorts</p>
           </div>
-          <a href="#">
+          <a href="<?php echo esc_url(get_permalink(get_page_by_title( 'Pakket aanvragen' ))); ?>">
             <button>Aanvragen</button>
           </a>
         </div>
