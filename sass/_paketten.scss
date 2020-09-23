@@ -9,6 +9,7 @@
         margin: 0 auto;
         color: $darkPurple;
         font-weight: 600;
+        
     }
 }
 .basic > .pakketItems {
@@ -186,11 +187,7 @@
     }
 }
 
-@media screen and (max-width: 1024px){
-    .paketten__box{
-        margin-top: -20vh;
-    }
-}
+
 
 @media screen and (max-width: 540px){
     .paketten__box{
@@ -205,5 +202,13 @@
 @media screen and (max-width: 280px){
     .paketten__omschrijving{
         display: none;
+    }
+}
+@media screen and (max-height: 670px){
+    .paketten__omschrijving{
+        display: none;
+    }
+    .paketten__title {
+        font-size: 24px !important;
     }
 }

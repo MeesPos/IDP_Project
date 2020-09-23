@@ -15,6 +15,10 @@ html {
   font-weight: 400;
 }
 
+.section {
+  height: 100vh !important;
+}
+
 .go-to-top-container {
   position: fixed;
   right: 3%;
@@ -402,11 +406,6 @@ html {
     display: block;
   }
 }
-@media screen and (max-width: 1024px) {
-  .paketten__box {
-    margin-top: -20vh;
-  }
-}
 @media screen and (max-width: 540px) {
   .paketten__box {
     margin-top: 10vh;
@@ -419,6 +418,15 @@ html {
 @media screen and (max-width: 280px) {
   .paketten__omschrijving {
     display: none;
+  }
+}
+@media screen and (max-height: 670px) {
+  .paketten__omschrijving {
+    display: none;
+  }
+
+  .paketten__title {
+    font-size: 24px !important;
   }
 }
 .pakket-aanvragen-form > h2 {
@@ -785,6 +793,7 @@ html {
 
 .contact-page-right {
   background-color: #6C63FF;
+  height: 100vh;
   display: grid;
   grid-template-rows: 1fr auto 1fr;
 }

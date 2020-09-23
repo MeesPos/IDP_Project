@@ -27,8 +27,9 @@
         <div class="row">
           <div class="headerContent col-xl-6">
             <h1>Power Marketing.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus
-              metus vel congue viverra. Donec sit amet ante a dolor vestibulum luctus.</p>
+            <p>Wij zijn Power Marketing, <b>het</b> marketing bedrijf voor u.
+          Wij verzorgen de complete branding van uw bedrijf of nieuwe start-up.
+        We offer the whole picture.</p>
             <a href="#" class="bedrijfsVideo" data-target="#bedrijfsModaal" data-toggle="modal">
               <i class="fas fa-play-circle"></i>
               <p>Bekijk onze bedrijfsvideo!</p>
@@ -189,9 +190,9 @@
         <div class="footer-bedrijf-info col-4">
           <img src="<?php echo get_template_directory_uri() . '/img/logoWhite.svg' ?>" alt="Power-Marketing Logo">
           <h3>Power Marketing</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Cras maximus metus vel
-            congue viverra.</p>
+          <p>Wij zijn Power Marketing, <b>het</b> marketing bedrijf voor u.
+          Wij verzorgen de complete branding van uw bedrijf of nieuwe start-up.
+        We offer the whole picture.</p>
         </div>
         <div class="footer-contact "><?php dynamic_sidebar('footer-contact'); ?></div>
         <div class="footer-verkennen ">

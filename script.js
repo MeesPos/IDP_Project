@@ -63,10 +63,10 @@ window.addEventListener('hashchange',()=>{
   let url = window.location.href;
   console.log('hoi');
   if (n = url.includes("home")) {
-      document.getElementById("naarBoven").style.display = "block";
+      document.getElementById("naarBoven").style.display = "none";
       console.log("url = home")
     } else {
-      document.getElementById("naarBoven").style.display = "none";
+      document.getElementById("naarBoven").style.display = "block";
       console.log('niet home');
     }
 });
