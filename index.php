@@ -77,7 +77,7 @@
             <p>Website</p>
             <p>Bedrijfsvideo</p>
           </div>
-          <a href="#">
+          <a href="<?php echo esc_url(get_permalink(get_page_by_title( 'Pakket aanvragen' ))); ?>">
             <button>Aanvragen</button>
           </a>
         </div>
@@ -93,7 +93,7 @@
             <p>3 video's</p>
             <p>Online Marketing Plan</p>
           </div>
-          <a href="#">
+          <a href="<?php echo esc_url(get_permalink(get_page_by_title( 'Pakket aanvragen' ))); ?>">
             <button>Aanvragen</button>
           </a>
         </div>
@@ -178,7 +178,7 @@
       <div></div>
       <div class="contact-page-right-container">
         <h2>NEEM CONTACT OP</h2>
-        <?php echo do_shortcode('[wpforms id="8" title="false" description="false"]') ?>
+        <?php echo do_shortcode('[wpforms id="19" title="false" description="false"]') ?>
       </div>
       <div></div>
     </div>

@@ -53,11 +53,11 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     color: rgb(201, 201, 201);
     margin-left: -10px !important;
 }
-#wpforms-19-field_5-container {
+#wpforms-19-field_4-container {
     color: white;
 }
 
-#wpforms-19-field_5_1 {
+#wpforms-19-field_4_1 {
     position: absolute; // take it out of document flow
     opacity: 0; // hide it
   
@@ -113,7 +113,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
       transform: rotate(45deg);
     }
   }
-  #wpforms-submit-8 {
+  #wpforms-submit-19 {
       display: block;
       margin: 0 auto;
       width: 50%;
@@ -121,6 +121,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
       color: #6C63FF;
       font-weight: 600;
       font-size: 20px;
+      background-color: white;
   }
   @media screen and (max-width: 1300px) {
     .contact-logo > img {
@@ -147,12 +148,12 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     .contact-page-right-container > h2 {
       font-size: 40px;
     }
-    #wpforms-19-field_5_1 + label {
+    #wpforms-19-field_4_1 + label {
       font-size: 15px;
     }
   }
   @media screen and (max-width: 375px) {
-    #wpforms-submit-8 {
+    #wpforms-submit-19 {
       width: 65%;
     }
   }
@@ -160,7 +161,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
     .contact-page-right-container > h2 {
       margin-bottom: 10px;
     }
-    #wpforms-19-field_5-container  {
+    #wpforms-19-field_4-container  {
       margin-bottom: 10px !important;
     }
   }

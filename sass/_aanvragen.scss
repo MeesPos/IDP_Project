@@ -13,7 +13,7 @@
         padding-top: 30px;
     }
 }
-#wpforms-form-38 > .wpforms-field-container {
+#wpforms-form-12 > .wpforms-field-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto auto;
@@ -33,11 +33,11 @@
     grid-row: 3/4;
     grid-column: 1/3;
 }
-#wpforms-form-38 > .wpforms-field-container > div > label, #wpforms-form-38 > .wpforms-field-container > div > label > .wpforms-required-label  {
+#wpforms-form-12 > .wpforms-field-container > div > label, #wpforms-form-12 > .wpforms-field-container > div > label > .wpforms-required-label  {
     color: #4842AB ;
     font-size: 20px;
 }
-#wpforms-form-38 > div > div > input[type=text] {
+#wpforms-form-12 > div > div > input[type=text] {
     background-color: white;
     color: white;
     border: none;
@@ -45,7 +45,7 @@
     padding: 0;
     max-width: 90%;
 }
-#wpforms-form-38 > div > div > input[type=email] {
+#wpforms-form-12 > div > div > input[type=email] {
     background-color: white;
     color:  #6C63FF;
     border: none;
@@ -53,9 +53,9 @@
     padding: 0;
     max-width: 100%;
 }
-#wpforms-form-38 > div > div > #wpforms-38-field_4 {
+#wpforms-form-12 > div > div > #wpforms-12-field_4 {
     background-color: white;
-    color:  #6C63FF;
+    color:  $darkPurple;
     border: none;
     border-bottom: 2px solid  #6C63FF;
     padding: 0;
@@ -63,11 +63,11 @@
 }
 
 
-#wpforms-form-38 > .wpforms-field-container > div:nth-child(3) {
+#wpforms-form-12 > .wpforms-field-container > div:nth-child(3) {
     margin-bottom: 0 !important;
 }
 
-#wpforms-submit-38 {
+#wpforms-submit-12 {
     display: block;
     margin: 0 auto;
     width: 350px;
@@ -96,10 +96,10 @@
     }
 }
 // Checkbox
-#wpforms-38-field_5-container {
+#wpforms-12-field_3-container {
     grid-column: 1/3;
 }
-#wpforms-38-field_5_1 {
+#wpforms-12-field_5_1 {
     position: absolute; // take it out of document flow
     opacity: 0; // hide it
   
@@ -157,22 +157,22 @@
   }
 
   @media screen and (max-width: 800px) {
-    #wpforms-form-38 > .wpforms-field-container > .aanvragen-naam-input {
+    #wpforms-form-12 > .wpforms-field-container > .aanvragen-naam-input {
         grid-column: 1/3;
         grid-row: 1/2;
         & > input {
             max-width: 100%;
         }
     }
-    #wpforms-form-38 > .wpforms-field-container > .aanvragen-email-input {
+    #wpforms-form-12 > .wpforms-field-container > .aanvragen-email-input {
         grid-column: 1/3;
         grid-row: 2/3;
     }
-    #wpforms-form-38 > .wpforms-field-container > .pakket-keuze {
+    #wpforms-form-12 > .wpforms-field-container > .pakket-keuze {
         grid-column: 1/3;
         grid-row: 3/4;
     }
-    #wpforms-form-38 > .wpforms-field-container > .aanvragen-bericht-input {
+    #wpforms-form-12 > .wpforms-field-container > .aanvragen-bericht-input {
         grid-column: 1/3;
         grid-row: 4/5;
     }
@@ -186,16 +186,16 @@
     input[type=text]::placeholder, input[type=email]::placeholder {
         font-size: 12px;
     }
-    #wpforms-form-38 > .wpforms-field-container > div > label {
+    #wpforms-form-12 > .wpforms-field-container > div > label {
         font-size: 16px;
     }
     .wpforms-field-container > .pakket-keuze > .wpforms-field-large {
         font-size: 14px;
     }
-    #wpforms-form-38 > .wpforms-field-container > div {
+    #wpforms-form-12 > .wpforms-field-container > div {
         margin-bottom: 10px !important;
     }
-    #wpforms-submit-38 {
+    #wpforms-submit-12 {
         display: block;
         margin: 0 auto;
         width: 150px;

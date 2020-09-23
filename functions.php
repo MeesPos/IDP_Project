@@ -57,8 +57,8 @@ function register_menus() {
     register_nav_menus(
         array(
             'main-menu' => __( 'Main menu' ),
-            'footer-menu' => __( 'Footer menu' )
-        ),
+            'footer-menu' => __( 'Footer menu' ),
+        )
     );
 } add_action( 'init', 'register_menus' );
 

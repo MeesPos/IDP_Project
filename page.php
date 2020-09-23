@@ -24,7 +24,7 @@
     <div class="pakket-aanvragen-container">
         <div class="pakket-aanvragen-form">
             <h2>Vraag uw pakket aan</h2>
-            <?php echo do_shortcode('[wpforms id="38" title="false" description="false"]') ?>
+            <?php echo do_shortcode('[wpforms id="12" title="false" description="false"]') ?>
         </div>
     </div>
 
