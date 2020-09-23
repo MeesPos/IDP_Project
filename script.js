@@ -1,16 +1,16 @@
 
-$(document).ready(function() {
-    $('#fullpage').fullpage({
-      navigation: true,
-      navigationPosition: 'right',
-      navigationTooltips: ['section1', 'section2','section3','section4','section5'],
-      anchors: ['home', 'producten', 'team', 'contact', 'footer'],
-      showActiveTooltip: true,
-      keyboardScrolling: true,
-      slidesNavigation: true,
-        slidesNavPosition: 'bottom',
-      controlArrows:false,
-    });
+$(document).ready(function () {
+  $('#fullpage').fullpage({
+    navigation: true,
+    navigationPosition: 'right',
+    navigationTooltips: ['section1', 'section2', 'section3', 'section4', 'section5'],
+    anchors: ['home', 'producten', 'team', 'contact', 'footer'],
+    showActiveTooltip: true,
+    keyboardScrolling: true,
+    slidesNavigation: true,
+    slidesNavPosition: 'bottom',
+    controlArrows: false,
+  });
 
 });
 
@@ -57,4 +57,16 @@ owlPak.owlCarousel({
       items: 3
     }
   }
+});
+
+window.addEventListener('hashchange',()=>{ 
+  let url = window.location.href;
+  console.log('hoi');
+  if (n = url.includes("home")) {
+      document.getElementById("naarBoven").style.display = "block";
+      console.log("url = home")
+    } else {
+      document.getElementById("naarBoven").style.display = "none";
+      console.log('niet home');
+    }
 });

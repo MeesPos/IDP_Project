@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<div id="fullpage">
+<div  id="fullpage">
   <div class="section" id="section1">
     <nav class="navbar navbar-expand-lg navbar-light bg-white" id="menuHeader">
       <a class="navbar-brand" href="<?php echo home_url(); ?>">
@@ -58,11 +58,10 @@
           <h3>€2.500</h3>
           <div class="pakketItems">
             <p>Logo Design</p>
+            <p>Huisstijl</p>
             <p>Website</p>
-            <p>SEO Ready</p>
-            <p>Enzovoorts</p>
           </div>
-          <a href="#">
+          <a href="<?php echo esc_url(get_permalink(get_page_by_title( 'Pakket aanvragen' ))); ?>">
             <button>Aanvragen</button>
           </a>
         </div>
@@ -73,9 +72,9 @@
           <h3>€5.000</h3>
           <div class="pakketItems">
             <p>Logo Design</p>
+            <p>Huisstijl</p>
             <p>Website</p>
-            <p>SEO Ready</p>
-            <p>Enzovoorts</p>
+            <p>Bedrijfsvideo</p>
           </div>
           <a href="#">
             <button>Aanvragen</button>
@@ -88,9 +87,10 @@
           <h3>€10.000</h3>
           <div class="pakketItems">
             <p>Logo Design</p>
+            <p>Huisstijl</p>
             <p>Website</p>
-            <p>SEO Ready</p>
-            <p>Enzovoorts</p>
+            <p>3 video's</p>
+            <p>Online Marketing Plan</p>
           </div>
           <a href="#">
             <button>Aanvragen</button>
@@ -117,7 +117,7 @@
               <p class="team-functie">Developer</p>
               <a href="#" class="team-link" data-toggle="modal" data-target="#cornellModal">
                 <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
-                <p>Naar Portfolio</p>
+                <p>Meer info</p>
               </a>
             </div>
           </div>
@@ -129,7 +129,7 @@
               <p class="team-functie">Developer</p>
               <a href="#" class="team-link" data-toggle="modal" data-target="#meesModal">
                 <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
-                <p>Naar Portfolio</p>
+                <p>Meer info</p>
               </a>
             </div>
           </div>
@@ -141,7 +141,7 @@
               <p class="team-functie">Graphic Designer</p>
               <a href="#" class="team-link" data-toggle="modal" data-target="#larissaModal">
                 <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
-                <p>Naar Portfolio</p>
+                <p>Meer info</p>
               </a>
             </div>
           </div>
@@ -153,7 +153,7 @@
 
               <a href="#" class="team-link" data-toggle="modal" data-target="#mitchelModal">
                 <img src="<?php echo get_template_directory_uri() . '/img/arrow.png' ?>" alt="">
-                <p>Naar Portfolio</p>
+                <p>Meer info</p>
               </a>
 
             </div>
@@ -222,6 +222,15 @@
   </div>
 </div>
 
+
+<div class="go-to-top-container" id="naarBoven">
+  <a href="#home">
+      <img src="<?php echo get_template_directory_uri() . '/img/go-to-top.svg' ?>" alt="">
+
+  </a>
+</div>
+
+<!-- Het modaal va Mitchel -->
 <div class="modal fade" id="bedrijfsModaal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl backgroundBedrijf">
     <div class="modal-content">
@@ -235,6 +244,7 @@
 </div>
 
 <!-- Het modaal van Mitchel -->
+
 <div class="modal fade" id="mitchelModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content">
