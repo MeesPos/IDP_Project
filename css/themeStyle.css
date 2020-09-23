@@ -15,6 +15,16 @@ html {
   font-weight: 400;
 }
 
+.go-to-top-container {
+  position: fixed;
+  right: 3%;
+  bottom: 5%;
+  transition: 2s;
+}
+.go-to-top-container > a > img {
+  width: 60px;
+}
+
 #section1 > .fp-tableCell {
   display: block !important;
 }
@@ -219,6 +229,10 @@ html {
   margin: 0 auto;
   color: #4842AB;
   font-weight: 600;
+}
+
+.basic > .pakketItems {
+  margin: 50px 0 50px;
 }
 
 .pakettenCarousel {
