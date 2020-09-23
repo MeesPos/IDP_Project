@@ -29,7 +29,7 @@
             <h1>Power Marketing.</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus
               metus vel congue viverra. Donec sit amet ante a dolor vestibulum luctus.</p>
-            <a href="#" class="bedrijfsVideo">
+            <a href="#" class="bedrijfsVideo" data-target="#bedrijfsModaal" data-toggle="modal">
               <i class="fas fa-play-circle"></i>
               <p>Bekijk onze bedrijfsvideo!</p>
             </a>
@@ -222,6 +222,7 @@
   </div>
 </div>
 
+
 <div class="go-to-top-container" id="naarBoven">
   <a href="#home">
       <img src="<?php echo get_template_directory_uri() . '/img/go-to-top.svg' ?>" alt="">
@@ -230,6 +231,20 @@
 </div>
 
 <!-- Het modaal va Mitchel -->
+<div class="modal fade" id="bedrijfsModaal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl backgroundBedrijf">
+    <div class="modal-content">
+      <div class="bedrijfsModal" style="padding:52.73% 0 0 0;position:relative;">
+        <iframe src="https://player.vimeo.com/video/460306959?color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+  </div>
+</div>
+
+<!-- Het modaal van Mitchel -->
+
 <div class="modal fade" id="mitchelModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content">
@@ -240,28 +255,30 @@
         </button>
       </div>
       <div class="modal-body">
-        <p class="modal-content-over">Mijn naam is Mitchel Westerwaal, 19 jaar oud en werkzaam als video maker & grafisch 
-        vormgever bij Power Maketing. Hiernaast ben ik erg op de hoogte van de laatste ontwikkelingen op het 
-        gebied van Social Media en Online Marketing.
+        <p class="modal-content-over">Mijn naam is Mitchel Westerwaal, 19 jaar oud en werkzaam als video maker & grafisch
+          vormgever bij Power Maketing. Hiernaast ben ik erg op de hoogte van de laatste ontwikkelingen op het
+          gebied van Social Media en Online Marketing.
         </p>
 
         <h3 class="text-center modal-project">Bekijk hier een project van mij</h3>
         <div class="container-flex modal-project-container">
           <div class="row modal-project-row d-flex">
             <div class="col-md-6 modal-project-image my-auto">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Cochem_and_Reichsburg.jpg/1200px-Cochem_and_Reichsburg.jpg" alt="">
+              <div style="padding:56.25% 0 0 0;position:relative;">
+                <iframe src="https://player.vimeo.com/video/460236342?color=c9ff23&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
             </div>
 
             <div class="col-md-6 modal-project-info align-self-center">
-              <h2 class="modal-project-title">Het mooie land van Cochem</h2>
+              <h2 class="modal-project-title">Hi Monday Aftermovie</h2>
               <p class="modal-project-omschrijving">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod sint enim odio eum culpa ab necessitatibus minima nobis dolore
-                voluptatem iste ratione, laboriosam asperiores alias consectetur ipsum laudantium officia. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit</p>
+                In opdracht van Hi Monday (evenementen bureau) die een dinnershow hadden georganiseerd, heb ik een aftermovie moeten
+                maken. Dit feest die werd gehouden op de Supper Club Cruise in Rotterdam moest een gezellige en unieke sfeer uitstralen
+                en dit moest ik op beeld overbrengen. Hieronder het eindresultaat.</p>
             </div>
           </div>
         </div>
-        <a href="">
+        <a href="https://www.mitchelwesterwaal.nl" target="_blank">
           <button class="btn modal-portfolio-button">Naar mijn Portfolio</button>
         </a>
       </div>
@@ -281,8 +298,8 @@
       </div>
       <div class="modal-body">
         <p class="modal-content-over">Mijn naam is Larissa van Rijn en ik studeer op het
-        Mediacollege in Amsterdam. Vormgeving heeft mij altijd wel bezig gehouden sinds ik
-        begonnen ben met de opleiding Mediavormgeving.
+          Mediacollege in Amsterdam. Vormgeving heeft mij altijd wel bezig gehouden sinds ik
+          begonnen ben met de opleiding Mediavormgeving.
         </p>
 
         <h3 class="text-center modal-project">Bekijk hier een project van mij</h3>
@@ -295,11 +312,11 @@
             <div class="col-md-6 modal-project-info align-self-center">
               <h2 class="modal-project-title">Hotel Table card</h2>
               <p class="modal-project-omschrijving">
-              De table card wordt vaak gebruikt in hotels waar nuttige informatie opstaat voor de 
-              bezoeker. De elementen die ik toevoeg zijn de QR-code die leidt naar de webapp die 
-              GuestCompass ontworpen heeft, de informatie wat de klant erop wil hebben en het beeld. 
-              De kleuren pak ik meestal van het hotel haar websitestijl en zorg ervoor dat die een 
-              beetje op elkaar lijken.</p>
+                De table card wordt vaak gebruikt in hotels waar nuttige informatie opstaat voor de
+                bezoeker. De elementen die ik toevoeg zijn de QR-code die leidt naar de webapp die
+                GuestCompass ontworpen heeft, de informatie wat de klant erop wil hebben en het beeld.
+                De kleuren pak ik meestal van het hotel haar websitestijl en zorg ervoor dat die een
+                beetje op elkaar lijken.</p>
             </div>
           </div>
         </div>
@@ -321,8 +338,8 @@
         </button>
       </div>
       <div class="modal-body">
-        <p class="modal-content-over">Ik ben Cornell, 17 jaar. Momenteel een student aan het Mediacollege Amsterdam waar ik 
-          MediaDevelopment doe. Ik zorg ervoor dat websites en applicaties er goed uit zien zowel als dat 
+        <p class="modal-content-over">Ik ben Cornell, 17 jaar. Momenteel een student aan het Mediacollege Amsterdam waar ik
+          MediaDevelopment doe. Ik zorg ervoor dat websites en applicaties er goed uit zien zowel als dat
           achter de schermen alles soepel verloopt en de gebruiker geen problemen krijgt.
         </p>
 
@@ -336,11 +353,11 @@
             <div class="col-md-6 modal-project-info align-self-center">
               <h2 class="modal-project-title">Mijn bedrijf Hubsor</h2>
               <p class="modal-project-omschrijving">
-               Samen met Mees Postma ben ik een bedrijf gestart, hubsor. Hier maken wij websites en verzorgen andere 
-               services zoals hosting installatie, plugin installatie en het verbeteren of verzorgen van SEO. Door onze 
-               goede samenwerking krijgen we ons werk goed voor elkaar. Ook hebben wij goed zicht op wat de uiteindelijke
-               klant nodig heeft en wilt. Zo kan de klant iets op een manier willen die niet optimaal is voor de klant, wij zijn 
-               er dan om ervoor te zorgen dat het verandert naar een manier die de klant helpt. </p>
+                Samen met Mees Postma ben ik een bedrijf gestart, hubsor. Hier maken wij websites en verzorgen andere
+                services zoals hosting installatie, plugin installatie en het verbeteren of verzorgen van SEO. Door onze
+                goede samenwerking krijgen we ons werk goed voor elkaar. Ook hebben wij goed zicht op wat de uiteindelijke
+                klant nodig heeft en wilt. Zo kan de klant iets op een manier willen die niet optimaal is voor de klant, wij zijn
+                er dan om ervoor te zorgen dat het verandert naar een manier die de klant helpt. </p>
             </div>
           </div>
         </div>
@@ -365,8 +382,8 @@
       </div>
       <div class="modal-body">
         <p class="modal-content-over">Hallo, mijn naam is Mees Postma, 17 jaar en ik studeer op het Mediacollege
-        Amsterdam waar ik Mediadevelopment doe. Hier leer ik websites maken, optimaliseren en onderhouden. Buiten school
-        ben ik met Cornell bezig met een eigen bedrijf waar wij websites en online diensten verkopen.
+          Amsterdam waar ik Mediadevelopment doe. Hier leer ik websites maken, optimaliseren en onderhouden. Buiten school
+          ben ik met Cornell bezig met een eigen bedrijf waar wij websites en online diensten verkopen.
         </p>
 
         <h3 class="text-center modal-project">Bekijk hier een project van mij</h3>
@@ -382,11 +399,11 @@
                 Dit is Hubsor, een bedrijf die ik beheer samen met Cornell. Hier verkopen wij websites en online diensten
                 zoals SEO optimalisatie, Performance van websites verbeteren en nog veel meer. Wij kijken goed naar wat een klant
                 wilt. En proberen altijd zo goed mogelijk te maken naar de wensen van de klant. Voor meer informatie, kijk op
-              <a href="https://www.hubsor.nl" target="_blank">hubsor.nl</a>.</p>
+                <a href="https://www.hubsor.nl" target="_blank">hubsor.nl</a>.</p>
             </div>
           </div>
         </div>
-        <a href="https://www.hubsor.nl" target="_blank">
+        <a href="https://www.meespostma.nl" target="_blank">
           <button class="btn modal-portfolio-button">Naar mijn Portfolio</button>
         </a>
       </div>
