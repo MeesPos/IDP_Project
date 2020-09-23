@@ -467,15 +467,20 @@ html {
   border: none;
   border-bottom: 2px solid #6C63FF;
   padding: 0;
-  max-width: 90%;
+  max-width: 100%;
+}
+
+#wpforms-form-38 > div > div > #wpforms-38-field_4 {
+  background-color: white;
+  color: #6C63FF;
+  border: none;
+  border-bottom: 2px solid #6C63FF;
+  padding: 0;
+  max-width: 100%;
 }
 
 #wpforms-form-38 > .wpforms-field-container > div:nth-child(3) {
   margin-bottom: 0 !important;
-}
-
-#wpforms-38-field_4 {
-  max-width: 95% !important;
 }
 
 #wpforms-submit-38 {
@@ -500,12 +505,115 @@ html {
   background-color: white;
   border: none;
   border-bottom: 2px solid #6C63FF;
+  margin-bottom: 30px;
 }
 .wpforms-field-container > .pakket-keuze > .wpforms-field-large:focus {
   border: none;
   border-bottom: 2px solid #6C63FF;
 }
 
+#wpforms-38-field_5-container {
+  grid-column: 1/3;
+}
+
+#wpforms-38-field_5_1 {
+  position: absolute;
+  opacity: 0;
+}
+#wpforms-38-field_5_1 + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+#wpforms-38-field_5_1 + label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 3.5px solid #4842AB;
+}
+#wpforms-38-field_5_1:hover + label:before {
+  background: #6C63FF;
+}
+#wpforms-38-field_5_1:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.171);
+}
+#wpforms-38-field_5_1:checked + label:before {
+  background: #6C63FF;
+}
+#wpforms-38-field_5_1:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 9px;
+  background: white;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 800px) {
+  #wpforms-form-38 > .wpforms-field-container > .aanvragen-naam-input {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  #wpforms-form-38 > .wpforms-field-container > .aanvragen-naam-input > input {
+    max-width: 100%;
+  }
+
+  #wpforms-form-38 > .wpforms-field-container > .aanvragen-email-input {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  #wpforms-form-38 > .wpforms-field-container > .pakket-keuze {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+
+  #wpforms-form-38 > .wpforms-field-container > .aanvragen-bericht-input {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+}
+@media screen and (max-width: 700px) {
+  .pakket-aanvragen-form > h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  input[type=text]::placeholder, input[type=email]::placeholder {
+    font-size: 12px;
+  }
+
+  #wpforms-form-38 > .wpforms-field-container > div > label {
+    font-size: 16px;
+  }
+
+  .wpforms-field-container > .pakket-keuze > .wpforms-field-large {
+    font-size: 14px;
+  }
+
+  #wpforms-form-38 > .wpforms-field-container > div {
+    margin-bottom: 10px !important;
+  }
+
+  #wpforms-submit-38 {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 50px;
+    color: white;
+    background-color: #6C63FF;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 80px;
+  }
+}
 .team-section-container {
   margin: 0 auto;
 }
