@@ -64,10 +64,6 @@ html {
   width: 100vw;
 }
 
-#menu-hoofd-menu {
-  margin-top: 50px;
-}
-
 #section1 {
   height: 100vh;
 }
@@ -167,6 +163,10 @@ html {
   #menu-powermarketing {
     text-align: right;
   }
+
+  #menu-hoofd-menu {
+    margin-top: 50px;
+  }
 }
 @media screen and (max-width: 420px) {
   .headerIllu {
@@ -237,6 +237,7 @@ html {
   margin: 0 auto;
   color: #4842AB;
   font-weight: 600;
+  font-size: 18px;
 }
 
 .basic > .pakketItems {
@@ -480,7 +481,7 @@ html {
 
 #wpforms-form-12 > div > div > input[type=text] {
   background-color: white;
-  color: white;
+  color: #6C63FF;
   border: none;
   border-bottom: 2px solid #6C63FF;
   padding: 0;
@@ -655,11 +656,11 @@ html {
 .team-section-container > p {
   text-align: center;
   width: 45%;
-  font-size: 22px;
+  font-size: 18px;
   margin: 0 auto;
   margin-bottom: 50px;
+  color: #4842AB;
   font-weight: 600;
-  color: #7D7D82;
 }
 
 .team-container {
@@ -1046,6 +1047,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
 .socialIcons {
   text-align: center;
   padding-right: 0;
+  transition: 0.5s ease-in-out;
   font-size: 26px;
 }
 .socialIcons > a {
@@ -1055,6 +1057,7 @@ input[type=text]::placeholder, input[type=email]::placeholder {
 }
 .socialIcons > a:hover {
   color: #9893f5;
+  transition: 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 1200px) {

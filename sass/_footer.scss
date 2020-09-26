@@ -76,12 +76,14 @@
 .socialIcons{
   text-align: center;
   padding-right: 0;
+  transition: .5s ease-in-out;
   & > a {
     text-decoration: none;
     color: white;
      margin: 0 5px;
     &:hover {
     color: #9893f5;
+    transition: .5s ease-in-out;
   }
   }
   font-size: 26px;

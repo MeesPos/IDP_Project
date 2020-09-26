@@ -9,7 +9,7 @@
         </button>
         <?php
         wp_nav_menu(array(
-            'theme_location'    => 'main-menu',
+            'theme_location'    => 'aanvragen-menu',
             'depth'             => 2,
             'container'         => 'div',
             'container_class'   => 'collapse navbar-collapse',
@@ -59,9 +59,9 @@
                 <div class="footer-copyright col">2020 © by Power Marketing</div>
                 <div class="footer-socials col">
                     <p class="socialIcons float-right">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/powermarketing.be"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/power-marketing/"><i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href="https://instagram.com/powermarketing.be?igshid=1169tc477fev4"><i class="fab fa-instagram"></i></a>
                     </p>
                 </div>
             </div>

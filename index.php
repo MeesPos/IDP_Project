@@ -47,9 +47,7 @@
   <div class="section paketten" id="section2">
     <div class="paketten__box">
       <h2 class="paketten__title text-center">Kijk wat wij te bieden hebben</h2>
-      <p class="paketten__omschrijving text-center">Het team van Power Marketing bestaat uit 4 enthusiaste medewerkers.
-        Zij staan iedere werkdag voor u klaar, of u nu al klant bent of
-        graag meer wilt weten over wat wij doen!</p>
+      <p class="paketten__omschrijving text-center">Kies uit 1 van de drie pakketen om te kiezen welk pakket het best u zal helpen. Vragen? Neem contact op met ons team.</p>
     </div>
     <div class="pakettenCarousel">
       <div class="owl-carousel owl-paketten owl-theme">
@@ -104,7 +102,7 @@
   <div class="section team-section" id="section3">
     <div class="team-section-container">
       <h2>Maak kennis met ons team</h2>
-      <p>Het team van Power marketing bestaat uit 4 enthusiaste medewerkers.
+      <p>Het team van Power marketing bestaat uit 4 enthousiaste medewerkers.
         Zij staan iedere werkdag voor u klaar, of u nu al klant bent of
         graag meer wilt weten over wat wij doen!
       </p>
@@ -212,9 +210,9 @@
         <div class="footer-copyright col">2020 © by Power Marketing</div>
         <div class="footer-socials col">
           <p class="socialIcons float-right">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://www.facebook.com/powermarketing.be"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/power-marketing/"><i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href="https://instagram.com/powermarketing.be?igshid=1169tc477fev4"><i class="fab fa-instagram"></i></a>
           </p>
         </div>
       </div>

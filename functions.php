@@ -58,6 +58,7 @@ function register_menus() {
         array(
             'main-menu' => __( 'Main menu' ),
             'footer-menu' => __( 'Footer menu' ),
+            'aanvragen-menu' => __( 'Pakket aanvragen' ),
         )
     );
 } add_action( 'init', 'register_menus' );
